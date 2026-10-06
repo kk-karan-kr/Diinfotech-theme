@@ -1,0 +1,6 @@
+<?php
+$eyebrow = get_sub_field( 'eyebrow' ); $heading = get_sub_field( 'heading' ); $description = get_sub_field( 'description' ); $primary = get_sub_field( 'primary_button' ); $secondary = get_sub_field( 'secondary_button' );
+$style = get_sub_field( 'style' ); if ( ! in_array( $style, array( 'yellow', 'blue', 'dark', 'light' ), true ) ) { $style = 'yellow'; } if ( ! $heading ) { return; }
+?>
+<?php $icons = array( 'blue' => '↗', 'yellow' => 'AI', 'light' => '⌖', 'dark' => '✓' ); ?>
+<div class="seo-inline-cta seo-inline-cta--<?php echo esc_attr( $style ); ?> service-v2-inline-cta" aria-label="<?php echo esc_attr( $heading ); ?>"><div class="seo-delhi-container seo-inline-cta__inner"><span class="seo-inline-cta__icon" aria-hidden="true"><?php echo esc_html( $icons[ $style ] ); ?></span><div><?php if ( $eyebrow ) : ?><small><?php echo esc_html( $eyebrow ); ?></small><?php endif; ?><h3><?php echo esc_html( $heading ); ?></h3><?php if ( $description ) : ?><?php echo wp_kses_post( wpautop( $description ) ); ?><?php endif; ?></div><?php if ( is_array( $primary ) && ! empty( $primary['url'] ) ) : ?><a href="<?php echo esc_url( $primary['url'] ); ?>"><?php echo esc_html( $primary['title'] ?? __( 'Learn More', 'di-infotech' ) ); ?> <span aria-hidden="true">→</span></a><?php endif; ?></div></div>

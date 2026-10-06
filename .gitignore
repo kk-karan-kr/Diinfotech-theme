@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+.agents/
+.codex/
+.git/
+node_modules/
+tools/browser/
+vendor/
+*.log
+*.zip
+*.map
+
+# Local test and QA output
+/tests/
+/test/
+/coverage/
+/test-results/
+/playwright-report/
+/.nyc_output/
+/.phpunit.cache/
+
+# Local-only theme checks
+/tools/*-check.*
+/tools/page-audit.*
+/tools/performance-smoke.*
+/tools/inspect-performance.*
+
+seo-services-delhi-preview.html
+seo-services-delhi-preview.php
+slider-preview.html

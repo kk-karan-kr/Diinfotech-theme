@@ -1,0 +1,5094 @@
+@media screen and (max-width:480px) {
+
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .image-bottom {
+        position: absolute;
+        top: 85%;
+    }
+
+    section.rocket {
+        position: relative;
+
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .row_reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex_direction {
+        flex-direction: column-reverse;
+    }
+
+    .flex_wrap {
+        flex-wrap: wrap;
+    }
+
+    .main_btn {
+        margin-top: 20px;
+    }
+
+    #cursor {
+        display: none;
+    }
+
+    #cursor-border {
+        display: none;
+    }
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .margin_top {
+        margin-top: 40px;
+    }
+
+
+    .padding_top_bottom {
+        padding: 40px 0px;
+    }
+
+    .sub_pera {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .main_btn a {
+        padding: 8px 15px;
+    }
+
+    .sub_small_heading h4 {
+        font-size: 20px;
+    }
+
+
+    header .logo img {
+        width: 150px;
+    }
+
+    header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item {
+        border-right: 0;
+    }
+
+    header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
+        display: flex;
+    }
+
+    header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    header .menu>ul>li .sub-menu.mega-menu .arrow i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+
+    header .nav {
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-bottom: 20px;
+    }
+
+    header .nav-pills .nav-link {
+        padding: 10px 10px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    header .mega_menu_wrp {
+        padding: 15px;
+        background-color: #f8f8f8;
+        margin-top: 0px;
+    }
+
+    header .about_small_details {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0
+    }
+
+    header .menu_icon img {
+        width: 60px;
+    }
+
+    header .menu_bottom_text h4 {
+        font-size: 18px;
+    }
+
+    header .drop_menu .flex-inner .nav {
+        flex-direction: column;
+
+    }
+
+    header .drop_menu ul li a {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    header .drop_menu .flex-inner {
+        display: none;
+    }
+
+    header .yellow_arrow {
+        margin-left: 30px;
+    }
+
+    header .about_dropmenu {
+        margin-left: 0;
+    }
+
+    header .about_dropmenu {
+        display: none;
+    }
+
+    header .drop_menu .flex-inner.desktop_none {
+        display: block;
+    }
+
+    .our_ventures .heading h4 {
+        font-size: 16px;
+    }
+
+    /* Banner heading section css start  */
+
+
+    section.leading_main .counter_wrp {
+        width: 100%;
+    }
+
+    section.leading_main .counter_child {
+        flex-direction: column;
+        justify-content: center;
+        width: 33%;
+        border-right: 1px solid #f0f0f0
+    }
+
+    section.leading_main .counter_child:last-child {
+        border-right: 0;
+    }
+
+    section.leading_main .counter_wrp {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 15px;
+    }
+
+    section.leading_main .counter_child p {
+        font-size: 16px;
+    }
+
+    /* Banner heading section css end  */
+
+    /* our work section css start  */
+
+
+    section.our_work .heading {
+        text-align: center;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        top: 70px;
+        width: 30px;
+        right: 20px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        top: 70px;
+        width: 30px;
+        left: 20px;
+    }
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: inherit;
+    }
+
+    /* our work section css end  */
+
+    /* Our expertise section start  */
+
+
+    section.our_expertise .accordion_wrp {
+        margin-right: 0;
+    }
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 18px;
+    }
+
+    section.our_expertise .accordion_new .circle_arrow i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    section.our_expertise .accordion_intro {
+        margin-left: 10px;
+    }
+
+    section.our_expertise .accordion_new {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-top: 15px;
+        margin-top: 15px;
+        border-bottom: 0;
+        border-top: 1px solid #424242;
+        ;
+        align-items: baseline;
+    }
+
+    section.our_expertise .accordion_content img {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    section.our_expertise .expertise_pera p {
+        margin-right: 0px;
+    }
+
+
+    section.guaranteed_growth .guarantee_growth img {
+        margin-top: 40px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 100px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 100px;
+        bottom: -10px;
+    }
+
+    section.strategic_creative .heading {
+        margin-left: 0;
+    }
+
+    section.strategic_creative .team img {
+        width: 100%;
+    }
+
+    section.strategic_creative .team {
+        margin-top: 30px;
+    }
+
+    /* Our expertise section end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 180px;
+    }
+
+    section.self_brand .bottom_pera {
+        margin-right: 0px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 0;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    section.self_brand .influncer_child {
+        margin-left: 0;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 90px;
+    }
+
+
+
+    section.self_brand::before {
+        width: 100%;
+        height: 50%;
+    }
+
+    section.self_brand::after {
+        top: auto;
+        bottom: 0;
+        height: 50%;
+        width: 100%;
+    }
+
+    section.self_brand .introduction_wrp .main_btn {
+        margin-bottom: 60px;
+    }
+
+    section.self_brand .influncer_child .main_btn {
+        margin-bottom: 0px;
+    }
+
+    /* Introduction self brand section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract .heading {
+        margin-right: 0;
+    }
+
+    section.attract .guarantee_growth img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* More services section css start  */
+
+    section.more_services .services_wrp {
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    section.more_services .services_wrp .service_child h3 {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    /* More services section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_slider.owl-carousel .owl-stage {
+        padding-left: inherit;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 20px;
+    }
+
+    section.our_clients .client_heading h3 {
+        font-size: 22px;
+    }
+
+    section.our_clients .client_slider .user_name span {
+        font-size: 12px;
+    }
+
+    /* our clients section css end  */
+
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 80px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    section.attract_customer .attract_wrp {
+        margin-top: 20px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* lets talk section css start  */
+
+
+    section.lets_talk .heading {
+        text-align: center;
+    }
+
+    .di_form .form-group {
+        padding: 0px;
+    }
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .di_form .form_heading h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .di_form input.btn_form {
+        padding: 8px 0px;
+        margin-top: 5px;
+    }
+
+    /* lets talk section css end  */
+
+    /* portfolio css start  */
+
+    section.portfolio-wrp .nav-pills .nav-link {
+        border-radius: var(--bs-nav-pills-border-radius);
+        color: #ffffff;
+        width: 140px;
+        border: 1px solid #fcf315;
+        margin: 5px 10px;
+        border-radius: 0px;
+
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp h4 {
+        padding: 10px 0px;
+    }
+
+    section.portfolio-wrp .portfolio-img-wrp {
+        padding: 10px 10px 10px 10px;
+    }
+
+    section.portfolio-wrp .col-lg-6 {
+        padding: 0px;
+        border-right: 0px;
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp .portfolio-icon-wrp .portfolio-icon {
+        flex-direction: column;
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp .portfolio-icon-wrp .portfolio-icon p {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp .portfolio-icon-wrp .portfolio-icon p {
+        padding-top: 10px;
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp {
+        width: 93%;
+
+    }
+
+    section.portfolio-wrp .animation {
+        padding-bottom: 15px;
+    }
+
+    section.portfolio-wrp .portfolio-text-wrp h4::after {
+        content: "";
+        width: 55%;
+    }
+
+    section.portfolio-wrp .portfolio-img-wrp img {
+        height: 170px;
+    }
+
+    /* portfolio css end  */
+
+    /* footer css start  */
+
+    footer .social_media_icon ul li a {
+        font-size: 22px;
+    }
+
+    footer .social_media_icon ul {
+        column-gap: 10px;
+    }
+
+    footer .back_top {
+        display: none;
+    }
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    footer .download_btn a {
+        font-size: 11px;
+        justify-content: end;
+    }
+
+    footer .download_btn .download_arrow img {
+        width: 30px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer .footer_main_link {
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    footer .footer_heading h4 {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+    footer .accordion-button {
+        font-size: 16px;
+    }
+
+    .di_form {
+        padding: 20px;
+    }
+
+    .di_form .form-group {
+        margin-bottom: 15px;
+    }
+
+    footer .bottom_content {
+        padding-top: 20px;
+        margin-top: 10px;
+        border-top: 0;
+    }
+
+    footer .footer_icon img {
+        width: 35px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 12px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+    section.advertising-wrp .advertising-content-wrp .heading h3 {
+        font-size: 18px;
+
+    }
+
+    section.service-wrp .service-text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    section.online-store-wrp .online-shop-text {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    section.ecommerce-wrp .ecommerce-text {
+        width: 100%;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-wrp {
+        width: 25%;
+    }
+
+    section.ecommerce-wrp .row .col-lg-4:nth-child(2) .ecommerce-img-wrp {
+        width: 60%;
+        margin: 60px auto;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-main::after {
+        content: "";
+        border-bottom: 3px dashed #FEDD22;
+
+        position: absolute;
+        width: 100%;
+        transform: rotate(90deg);
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 25px;
+
+    }
+
+    section.work-process-wrp .work-process-tab .nav {
+        padding: 0px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    section.work-process-wrp .work-process-tab {
+        justify-content: start;
+        margin-bottom: 20px;
+    }
+
+    section.work-process-wrp .work-process-text {
+        margin-right: 0px;
+    }
+
+    section.work-process-wrp .owl-dots {
+        display: none;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    section.work-process-wrp .work-process-text .main-nav {
+        margin: 20px 0px;
+    }
+
+    section.experiences-wrp .experiences-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    section.experiences-wrp .col-lg-3:nth-child(5) {
+        margin-left: 0px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp {
+        margin-top: 7px;
+    }
+
+    section.support-wrp .support-text {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    section.support-wrp .support-icons-wrp {
+        text-align: center;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(1) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(2) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(3) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(4) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(5) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(6) .support-icons-wrp {
+        margin-top: 40px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 6px 10px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn {
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 15px 30px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 28px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h2 {
+        margin-bottom: 20px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading {
+        text-align: center;
+    }
+
+    /* service responsive css end  */
+
+    /* service page 2 responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 95%;
+    }
+
+    section.proformance-wrp .proformance-text {
+
+        text-align: center;
+    }
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+    }
+
+    section.advertising-wrp .advertising-nav {
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-bottom: 15px;
+        margin-bottom: 0px !important;
+        justify-content: flex-start;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link {
+        margin: 0px 5px;
+        width: 180px;
+    }
+
+    section.advertising-wrp .ad-wrp .heading h3 {
+
+        font-size: 22px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    section.advertising-wrp .ad-slider {
+        margin-top: 10px;
+    }
+
+    section.advertising-wrp .ad-slider .owl-dots {
+        display: none;
+    }
+
+    section.advertising-wrp .work-process-wrp.work-mt {
+        margin-top: 10px;
+    }
+
+    section.social-media-wrp .social-media-text {
+        width: 100%;
+    }
+
+    section.social-media-wrp .social-slider .social-media-img {
+        width: 70%;
+    }
+
+    section.social-media-wrp.margin_top {
+        text-align: center;
+    }
+
+    section.social-media-wrp .social-slider .owl-dots {
+        display: none;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 0px 10px 30px 10px;
+        text-align: center;
+    }
+
+    section.advertising-wrp .ad-wrp {
+        margin-top: 40px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        display: none;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 15px;
+    }
+
+    section.visitors-wrp .visitors-text .heading {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    section.video-advertising-wrp .video-advertising-text .video-advertising-list .tick-img img {
+        width: 18px;
+        margin-right: 10px;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom .youtube-img img {
+        display: none;
+    }
+
+    section.advertising-wrp .growth-img img {
+        width: 100%;
+    }
+
+    section.advertising-wrp .growth-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* service page 2 responsive css end  */
+
+    /* about us page responsive css start  */
+
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 45px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+
+        right: -120px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a i {
+        display: none;
+
+    }
+
+    section.excellence-wrp .key-feature-wrp {
+
+        padding: 10px 16px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text h3 {
+        font-size: 20px;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 65px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    section.business-growth-wrp .col-lg-3 {
+        border-right: none;
+        border-bottom: 2px solid #c5c5c5;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-left: 20px;
+        margin-right: 0px;
+        text-align: left;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-size: 18px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 0px;
+    }
+
+    section.consultant-wrp {
+        margin-top: 0px;
+    }
+
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 18px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 40px;
+    }
+
+    section.consultant-wrp .consultant-content {
+        margin-bottom: 0px;
+    }
+
+
+    /* about us page responsive css end  */
+
+
+
+    /*----------------- contact us page css start ----------------- */
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 10px;
+    }
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 10px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .heading {
+        margin-top: 0px;
+    }
+
+    section.contact_us .contact_circle {
+        position: absolute;
+        width: 90%;
+        left: 0px;
+        right: 0px;
+        top: 120px;
+        margin: 0px auto;
+        z-index: 0;
+    }
+
+    section.contact_us .contact_circle img {
+        width: 100%;
+    }
+
+    section.address .address_details_wrp {
+        height: auto;
+        padding: 15px;
+    }
+
+    section.address .map {
+        margin-top: 20px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    section.address .address_icon img {
+        width: 40px;
+    }
+
+    /*----------------- contact us page css end ----------------- */
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_point {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .mobile_search {
+        display: block;
+    }
+
+    section.blogs .search_desktop {
+        display: none;
+    }
+
+    section.blogs .blog_point p {
+        margin-right: 10px;
+        padding: 4px 20px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 12px;
+    }
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 18px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 30px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 35px;
+        height: 35px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 5px 10px;
+    }
+
+    section.blogs .number_list {
+        margin-bottom: 30px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 15px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 8px 50px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 8px 25px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+
+    section.service_brand .brand_logo img {
+        width: 70px;
+    }
+
+    section.service_brand .introduction_wrp {
+        margin-left: 0;
+    }
+
+    section.service_brand .introduction_wrp .main_btn {
+        margin-bottom: 0;
+    }
+section.service_brand .introduction_wrp{
+    margin-bottom: 70px;
+}
+    section.service_brand .introduction_wrp .introduction_heading h3 {
+        font-size: 20px;
+    }
+     section.service_brand .row .col-lg-6:nth-child(2) .introduction_wrp{
+        margin-bottom: 0;
+     }
+     
+     /* -------- 404 not found page css start -------- */
+
+    section.not_found .not_found_wrp {
+        padding: 20px;
+    }
+
+    section.not_found .not_found_heading h2 {
+        font-size: 30px;
+    }
+
+    section.not_found .not_found_img img {
+        width: 100%;
+    }
+
+    /* -------- 404 not found page css end-------*/
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) {
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .image-bottom {
+        position: absolute;
+        top: 6.7%;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .flex_direction {
+        flex-direction: column-reverse;
+    }
+
+    .main_btn {
+        margin-top: 20px;
+    }
+
+    .row_reverse {
+        flex-direction: row-reverse;
+    }
+
+    #cursor {
+        display: none;
+    }
+
+    #cursor-border {
+        display: none;
+    }
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .margin_top {
+        margin-top: 40px;
+    }
+
+    .padding_top_bottom {
+        padding: 40px 0px;
+    }
+
+    .sub_pera {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .main_btn a {
+        padding: 8px 15px;
+    }
+
+    .sub_small_heading h4 {
+        font-size: 20px;
+    }
+
+    /* Banner heading section css start  */
+
+
+    section.leading_main .counter_wrp {
+        width: 100%;
+    }
+
+    section.leading_main .counter_child {
+        flex-direction: column;
+        justify-content: center;
+        width: 33%;
+        border-right: 1px solid #f0f0f0
+    }
+
+    section.leading_main .counter_child:last-child {
+        border-right: 0;
+    }
+
+    section.leading_main .counter_wrp {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 15px;
+    }
+
+    section.leading_main .counter_child p {
+        font-size: 16px;
+    }
+
+    /* Banner heading section css end  */
+
+    /* our work section css start  */
+
+
+    section.our_work .heading {
+        text-align: center;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        top: 70px;
+        width: 30px;
+        right: 20px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        top: 70px;
+        width: 30px;
+        left: 20px;
+    }
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: inherit;
+    }
+
+    /* our work section css end  */
+
+    /* Our expertise section start  */
+
+
+    section.our_expertise .accordion_wrp {
+        margin-right: 0;
+    }
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 18px;
+    }
+
+    section.our_expertise .accordion_new .circle_arrow i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    section.our_expertise .accordion_intro {
+        margin-left: 10px;
+    }
+
+    section.our_expertise .accordion_new {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-top: 15px;
+        margin-top: 15px;
+        border-bottom: 0;
+        border-top: 1px solid #424242;
+        ;
+        align-items: baseline;
+    }
+
+    section.our_expertise .accordion_content img {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    section.our_expertise .expertise_pera p {
+        margin-right: 0px;
+    }
+
+
+    section.guaranteed_growth .guarantee_growth img {
+        margin-top: 20px;
+    }
+
+    section.strategic_creative .heading {
+        margin-left: 0;
+    }
+
+    section.strategic_creative .team img {
+        width: 100%;
+    }
+
+    section.strategic_creative .team {
+        margin-top: 30px;
+    }
+
+    /* Our expertise section end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 180px;
+    }
+
+    section.self_brand .bottom_pera {
+        margin-right: 0px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 0;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    section.self_brand .influncer_child {
+        margin-left: 0;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 90px;
+    }
+
+
+
+    section.self_brand::before {
+        width: 100%;
+        height: 50%;
+    }
+
+    section.self_brand ::after {
+        top: auto;
+        bottom: 0;
+        height: 50%;
+        width: 100%;
+    }
+
+    section.self_brand .introduction_wrp .main_btn {
+        margin-bottom: 60px;
+    }
+
+    section.self_brand .influncer_child .main_btn {
+        margin-bottom: 0px;
+    }
+
+    /* Introduction self brand section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract .heading {
+        margin-right: 0;
+    }
+
+    section.attract .guarantee_growth img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section.guaranteed_growth .guarantee_growth img {
+        margin-top: 40px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 150px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 150px;
+        bottom: -10px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* More services section css start  */
+
+    section.more_services .services_wrp {
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    section.more_services .services_wrp .service_child h3 {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    /* More services section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_slider.owl-carousel .owl-stage {
+        padding-left: inherit;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 20px;
+    }
+
+    section.our_clients .client_heading h3 {
+        font-size: 22px;
+    }
+
+    section.our_clients .client_slider .user_name span {
+        font-size: 12px;
+    }
+
+    /* our clients section css end  */
+
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 80px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    section.attract_customer .attract_wrp {
+        margin-top: 20px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* lets talk section css start  */
+
+
+    section.lets_talk .heading {
+        text-align: center;
+    }
+
+    .di_form .form-group {
+        padding: 0px;
+    }
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .di_form .form_heading h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .di_form input.btn_form {
+        padding: 8px 0px;
+    }
+
+    /* lets talk section css end  */
+
+
+    /* footer css start  */
+
+    footer .back_top {
+        display: none;
+    }
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    footer .download_btn a {
+        font-size: 11px;
+        justify-content: end;
+    }
+
+    footer .download_btn .download_arrow img {
+        width: 30px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer .footer_main_link {
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    footer .footer_heading h4 {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+    footer .accordion-button {
+        font-size: 16px;
+    }
+
+    .di_form {
+        padding: 20px;
+    }
+
+    .di_form .form-group {
+        margin-bottom: 15px;
+    }
+
+    footer .bottom_content {
+        padding-top: 20px;
+        margin-top: 10px;
+        border-top: 0;
+    }
+
+    footer .footer_icon img {
+        width: 35px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 12px;
+    }
+
+    /* footer css end  */
+
+    /* about us page responsive css start  */
+
+
+    section.marketing-wrp .marketing-text {
+        width: 85%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text {
+        margin-right: 42px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    section.business-growth-wrp .col-lg-3 {
+        border-right: none;
+        border-bottom: 2px solid #c5c5c5;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 50px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 0px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------- contact us page css start ----------------- */
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 10px;
+    }
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 10px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .heading {
+        margin-top: 0px;
+    }
+
+    section.contact_us .contact_circle {
+        position: absolute;
+        width: 90%;
+        left: 0px;
+        right: 0px;
+        top: 120px;
+        margin: 0px auto;
+        z-index: 0;
+    }
+
+    section.contact_us .contact_circle img {
+        width: 100%;
+    }
+
+    section.address .address_details_wrp {
+        height: auto;
+        padding: 15px;
+    }
+
+    section.address .map {
+        margin-top: 20px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    section.address .address_icon img {
+        width: 40px;
+    }
+
+    /*----------------- contact us page css end ----------------- */
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_point {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .mobile_search {
+        display: block;
+    }
+
+    section.blogs .search_desktop {
+        display: none;
+    }
+
+    section.blogs .blog_point p {
+        margin-right: 10px;
+        padding: 4px 20px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 12px;
+    }
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 18px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 30px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 35px;
+        height: 35px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 5px 10px;
+    }
+
+    section.blogs .number_list {
+        margin-bottom: 30px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 15px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 8px 50px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 8px 25px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+    
+    /* -------- 404 not found page css start -------- */
+
+    section.not_found .not_found_wrp {
+        padding: 20px;
+    }
+
+    section.not_found .not_found_heading h2 {
+        font-size: 30px;
+    }
+
+    section.not_found .not_found_img img {
+        width: 100%;
+    }
+
+    /* -------- 404 not found page css end-------*/
+
+
+}
+
+@media screen and (min-width:800px) and (max-width:1280px) {
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 15px;
+    }
+
+    .image-bottom {
+        position: absolute;
+        top: 6.7%;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+    }
+
+    .margin_top {
+        margin-top: 70px;
+    }
+
+    .sub_small_heading h4 {
+        font-size: 18px;
+    }
+
+    .padding_top_bottom {
+        padding: 70px 0px;
+    }
+
+    /* Banner heading section css start  */
+
+    section.leading_main .counter_child p {
+        font-size: 17px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 17px;
+    }
+
+    /* Banner heading section css end  */
+    /* brand section css start  */
+
+
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 180px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 180px;
+    }
+
+    /* brand section css end  */
+
+    /* our work section css start  */
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: 60px !important;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        width: 50px;
+        right: 150px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        width: 50px;
+        left: 150px;
+    }
+
+    /* our work section css end  */
+
+    /* footer css start  */
+
+    footer .footer_heading h4 {
+        font-size: 18px;
+    }
+
+    footer .accordion-button {
+        font-size: 16px;
+    }
+
+    footer .accordion-item {
+        padding-bottom: 10px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+
+    footer .bottom_content {
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+
+    footer .footer_icon img {
+        width: 40px;
+    }
+
+    footer .social_media_icon ul li a {
+        font-size: 25px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+
+    section.service-wrp .service-text {
+        margin-right: 20px;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-wrp {
+        width: 29%;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-main::after {
+        border-bottom: 2px dashed #FEDD22;
+        width: 55%;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 35px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        width: 18px;
+        height: 18px;
+        left: 75px;
+    }
+
+    section.work-process-wrp .work-process-tab {
+        justify-content: space-evenly;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 15px;
+    }
+
+    section.experiences-wrp .col-lg-3:nth-child(5) {
+        margin-left: -33px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp {
+        margin-top: 15px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 40px;
+        margin-left: 28px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 6px;
+        margin-top: 15px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 27px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 14px 25px;
+    }
+
+
+    /* service responsive css end  */
+
+    /* service page 2 responsive css start  */
+
+
+
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 0px 60px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        padding: 15px 21px;
+        margin-top: 20px;
+    }
+
+    section.work-process-wrp.work-mt {
+        margin-top: 20px;
+    }
+
+    section.social-media-wrp .social-media-text {
+        width: 60%;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 70px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 25px;
+    }
+
+    section.visitors-wrp .visitors-text .heading {
+        margin-bottom: 40px;
+    }
+
+    section.video-advertising-wrp .video-advertising-text .video-advertising-list .tick-img img {
+        width: 22px;
+        margin-right: 10px;
+    }
+
+    /* service page 2 responsive css end  */
+
+
+    /* about us page responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 55%;
+    }
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 55px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 175px;
+    }
+
+    section.excellence-wrp .key-feature-wrp {
+        padding: 20px 20px;
+    }
+
+    section.strategic_creative .heading {
+        margin-left: 0px;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 70px;
+    }
+
+    section.business-growth-wrp .heading h4 {
+        font-family: 'NeueMontreal-Medium';
+        font-size: 18px;
+    }
+
+    section.business-growth-wrp .heading h2 {
+
+        font-size: 34px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 18px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 22px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 50px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 50px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 80px;
+    }
+section.service_brand .brand_logo img {
+    width: 80px;
+}
+section.service_brand .introduction_wrp .introduction_heading h3 {
+    font-size: 20px;
+}
+    /* about us page responsive css end  */
+
+
+
+
+
+
+    /* --------------------- contact us page css start --------------------- */
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 15px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 15px;
+    }
+
+    section.contact_us .contact_circle {
+        width: 700px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 20px;
+    }
+
+    /* --------------------- contact us page css end --------------------- */
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 20px;
+    }
+
+    .blog_point p {
+        padding: 4px 20px;
+        margin-right: 10px;
+    }
+
+    section.blogs .blog_point {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 40px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 12px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h5 {
+        font-size: 20px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h3 {
+        font-size: 25px;
+    }
+
+    section.blog_inner_main .comment-input {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    section.blog_inner_main .comment-input .form-group .form-control {
+        padding: 8px 15px;
+    }
+
+    section.blog_inner_main .social_wrp a i {
+        font-size: 20px;
+    }
+
+    section.blog_inner_main .comment-input h5 {
+        font-size: 22px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+
+
+
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .h1,
+    h1 {
+        font-size: 2.1rem !important;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 13px;
+    }
+
+    .h1,
+    h1 {
+        font-size: 2.1rem;
+    }
+
+
+
+
+    .heading h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .heading h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .margin_top {
+        margin-top: 60px;
+    }
+
+    .padding_top_bottom {
+        padding: 60px 0px;
+    }
+
+    .main_btn a {
+        padding: 8px 20px;
+    }
+
+    /* Banner heading section css start  */
+
+    section.leading_main .counter_child p {
+        font-size: 15px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 15px;
+    }
+
+    /* Banner heading section css end  */
+    /* brand section css start  */
+
+
+
+    /* brand section css end  */
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 20px;
+    }
+
+    /* our work section css start  */
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: 72px !important;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        width: 45px;
+        right: 142px;
+        top: 150px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        width: 45px;
+        left: 142px;
+        top: 150px;
+    }
+
+    /* our work section css end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 180px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 50px;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 80px;
+    }
+
+    /* Introduction self brand section css start  */
+
+    /* More services section  section css start  */
+
+
+    section.more_services .services_wrp .service_child h3 {
+        font-size: 20px;
+    }
+
+    /* More services section  section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_heading h3 {
+        font-size: 20px;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 25px;
+    }
+
+    /* our clients section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 80px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 20px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 150px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 150px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* Lets Talk section css start  */
+
+    .di_form .form_heading h4 {
+        font-size: 20px;
+    }
+
+
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    /* Lets Talk section css end  */
+
+    /* footer css start  */
+
+    footer .footer_heading h4 {
+        font-size: 16px;
+    }
+
+    footer .accordion-button {
+        font-size: 14px;
+    }
+
+    footer .accordion-item {
+        padding-bottom: 10px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer .bottom_content {
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    footer .footer_icon img {
+        width: 40px;
+    }
+
+    footer .social_media_icon ul li a {
+        font-size: 20px;
+    }
+
+    footer .social_media_icon ul {
+        column-gap: 10px;
+    }
+
+    .di_form {
+        padding: 30px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 10px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        left: 45px;
+    }
+
+    section.work-process-wrp .work-process-text {
+        margin-right: 30px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 32px;
+    }
+
+    section.work-process-wrp .work-process-text .main-nav .bg_yellow {
+        padding: 7px 15px;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 13px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 8px 6px;
+        font-size: 10px;
+        border: 1px solid #d0d4db;
+    }
+
+    section.experiences-wrp .col-lg-3:nth-child(5) {
+        margin-left: -21px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a i {
+        width: 25px;
+        height: 25px;
+        margin-right: 11px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 30px;
+        margin-left: 25px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 4px;
+        margin-top: 12px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 23px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h3 {
+        font-size: 20px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 10px 20px;
+    }
+
+    section.support-wrp .support-text {
+        margin-bottom: -70px;
+    }
+
+    /* service responsive css end  */
+
+    /* service page 2 responsive css start  */
+
+
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 0px 50px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .sub_pera p {
+        font-size: 10px;
+
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        padding: 13px 13px;
+        margin-top: 17px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .heading h3 {
+        font-size: 19px;
+
+    }
+
+    section.social-media-wrp .social-media-text {
+        width: 70%;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 50px;
+    }
+
+    section.advertising-wrp .ad-wrp {
+        margin-top: 40px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 35px;
+        height: 35px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 20px;
+    }
+
+    /* service page 2 responsive css end  */
+
+
+
+    /* about us page responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 60%;
+    }
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 45px;
+    }
+
+    section.excellence-wrp .key-feature-wrp {
+        padding: 15px 15px;
+        margin-top: 20px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 20px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 149px;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 55px;
+    }
+
+    section.business-growth-wrp .heading h4 {
+        font-size: 17px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 0px 5px;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+
+    section.business-growth-wrp .business-growth .sub_pera {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+        width: 35px;
+        height: 35px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 16px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .why-di-mb {
+        margin-bottom: 20px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 40px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 19px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 30px;
+    }
+
+
+
+
+
+
+
+
+    /* --------------------- contact us page css start --------------------- */
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 15px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 15px;
+    }
+
+    section.contact_us .contact_circle {
+        width: 700px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    /* --------------------- contact us page css end --------------------- */
+
+
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 16px;
+    }
+
+    .blog_point p {
+        padding: 4px 20px;
+        margin-right: 10px;
+    }
+
+    section.blogs .blog_point {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 30px;
+    }
+
+    section.blogs .recent_img img {
+        height: 50px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 11px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    section.blogs .recent_posts {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .recent_text span {
+        font-size: 10px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 6px 15px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 40px;
+        height: 40px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 20px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 8px 40px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 8px 25px;
+    }
+
+    section.blogs .category_link .blog_check img {
+        width: 15px;
+    }
+
+
+    section.blog_inner_main .blog_text_wrp h5 {
+        font-size: 18px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h3 {
+        font-size: 22px;
+    }
+
+    section.blog_inner_main .comment-input {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    section.blog_inner_main .comment-input .form-group .form-control {
+        padding: 8px 15px;
+    }
+
+    section.blog_inner_main .social_wrp a i {
+        font-size: 18px;
+    }
+
+    section.blog_inner_main .comment-input h5 {
+        font-size: 20px;
+    }
+
+    section.blog_inner_main .comment-input .form-group {
+        margin-bottom: 15px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+
+section.service_brand .brand_logo img {
+    width: 60px;
+}
+section.service_brand .introduction_wrp .introduction_heading h3 {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width:800px) and (max-width:991px) {
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 11px;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sub_pera {
+        margin-bottom: 10px;
+    }
+
+    .margin_top {
+        margin-top: 40px;
+    }
+
+    .padding_top_bottom {
+        padding: 40px 0px;
+    }
+
+    .main_btn {
+        margin-top: 10px;
+    }
+
+    .main_btn a {
+        padding: 6px 15px;
+    }
+
+    /* Banner heading section css start  */
+
+    section.leading_main .counter_child p {
+        font-size: 13px;
+    }
+
+    section.leading_main .counter_wrp {
+        padding: 10px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 13px;
+    }
+
+    /* Banner heading section css end  */
+    /* brand section css start  */
+
+
+
+    /* brand section css end  */
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 16px;
+    }
+
+    section.our_expertise .expertise_pera p {
+        font-size: 9px;
+    }
+
+    section.our_expertise .accordion_new .circle_arrow i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+
+    }
+
+    section.our_expertise .numeric_number p {
+        font-size: 14px;
+    }
+
+    section.our_expertise .accordion_intro {
+        margin-left: 15px;
+    }
+
+    section.our_expertise .accordion_new {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* our work section css start  */
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: 104px !important;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        width: 35px;
+        right: 116px;
+        top: 120px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        width: 35px;
+        left: 116px;
+        top: 120px;
+    }
+
+    /* our work section css end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 140px;
+    }
+
+    section.self_brand .bottom_pera {
+        margin-right: 0px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 50px;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 60px;
+    }
+
+    /* Introduction self brand section css start  */
+
+    /* More services section  section css start  */
+
+    section.attract .heading {
+        margin-right: 0;
+    }
+
+    section.more_services .services_wrp .service_child h3 {
+        font-size: 16px;
+    }
+
+    section.more_services .services_wrp {
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    /* More services section  section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_heading h3 {
+        font-size: 16px;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 20px;
+    }
+
+    section.our_clients .client_slider .user_name span {
+        font-size: 9px;
+    }
+
+    section.our_clients .client_slider .user_name {
+        line-height: 11px;
+    }
+
+    section.our_clients .owl-carousel .owl-item .clients_details .user_img img {
+        width: 30px;
+    }
+
+    section.our_clients .client_slider .clients_details {
+        margin-top: 15px;
+    }
+
+    section.our_clients .client_slider.owl-carousel .owl-stage {
+        padding-left: 105px !important;
+    }
+
+    /* our clients section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 70px;
+    }
+
+    section.attract_customer .attract_wrp {
+        margin-top: 20px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 17px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 120px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 120px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* Lets Talk section css start  */
+    .di_form {
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .di_form .form_heading h4 {
+        font-size: 15px;
+    }
+
+
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px 0px;
+        border-radius: 3px;
+    }
+
+    .di_form .form-control {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    /* Lets Talk section css end  */
+
+
+    /* footer css start  */
+
+    footer .footer_heading h4 {
+        font-size: 13px;
+    }
+
+    footer .accordion-button {
+        font-size: 12px;
+    }
+
+    footer .footer_main_link {
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+
+    footer .accordion-item {
+        padding-bottom: 10px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    footer .bottom_content {
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+    footer .footer_icon img {
+        width: 40px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 10px;
+    }
+
+    footer .accordion-item ul {
+        margin-bottom: 0px;
+    }
+
+    footer .footer_icon img {
+        width: 30px;
+    }
+
+    footer .address_details ul li .footer_text {
+        margin-left: 10px;
+    }
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    footer .download_btn .download_arrow img {
+        width: 25px;
+    }
+
+    footer .back_top .up_arrow img {
+        width: 25px;
+    }
+
+    footer .social_media_icon ul li a {
+        font-size: 18px;
+    }
+
+    footer .social_media_icon ul {
+        column-gap: 5px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+
+    section.online-store-wrp .online-shop-text {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    section.work-process-wrp .work-process-text {
+        margin-right: 0px;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 11px;
+    }
+
+    section.work-process-wrp .work-process-text .main-nav .bg_yellow {
+        padding: 5px 15px;
+
+    }
+
+    section.work-process-wrp .work-process-tab {
+        justify-content: start;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 25px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        width: 15px;
+        height: 15px;
+        left: -21px;
+    }
+
+    section.experiences-wrp .experiences-text {
+        width: 80%;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 7px 5px;
+        font-size: 7px;
+        border: 1px solid #d0d4db;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a i {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp {
+        margin-top: 12px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 28px;
+        margin-left: 18px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 3px;
+        margin-top: 12px;
+        width: 60px;
+    }
+
+    section.support-wrp .support-icons-wrp .sub_pera p {
+        font-size: 10px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 20px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h3 {
+        font-size: 16px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 9px 10px;
+    }
+
+    /* service responsive css end  */
+
+    /* service page 2 responsive css start  */
+
+
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 0px 40px;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link {
+        border: 1px solid #d4d4d4;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link.active {
+        border: 1px solid #000000;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .heading h3 {
+        font-size: 13px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .sub_pera p {
+        font-size: 8px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        padding: 10px 10px;
+        margin-top: 20px;
+        border: 1px solid #d0d0d0;
+    }
+
+    section.social-media-wrp .social-media-text {
+        width: 76%;
+    }
+
+    section.advertising-wrp .ad-wrp {
+        margin-top: 35px;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 50px;
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link {
+        color: #808080;
+        border: 1px solid #1c1b1b;
+
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link.active {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    section.visitors-wrp .visitors-text .heading {
+        margin-bottom: 30px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 30px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 15px;
+    }
+
+    section.video-advertising-wrp .video-advertising-text .video-advertising-list .tick-img img {
+        width: 15px;
+        margin-right: 7px;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom .youtube-img {
+        width: 9%;
+    }
+
+    /* about us page responsive css start  */
+
+
+    section.marketing-wrp .marketing-text {
+        width: 75%;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 147px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 40px;
+    }
+
+    section.excellence-wrp .key-feature-wrp {
+        padding: 10px 13px;
+        margin-top: 17px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text h3 {
+        font-size: 17px;
+    }
+
+    section.strategic_creative .heading h3 {
+        font-size: 15px;
+    }
+
+    section.strategic_creative .team img {
+        width: 100%;
+    }
+
+    section.strategic_creative .heading {
+        margin-left: 20px;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 45px;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    section.business-growth-wrp .col-lg-3 {
+        border-right: 1px solid #c5c5c5;
+    }
+
+    section.business-growth-wrp .heading h4 {
+        font-family: 'NeueMontreal-Medium';
+        font-size: 15px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 0px 0px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .why-di-mb {
+        margin-bottom: 17px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 13px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 35px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 16px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 55px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 38px;
+    }
+
+
+    /* about us page responsive css end  */
+
+
+
+    /* --------------------- contact us page css start --------------------- */
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 15px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 15px;
+    }
+
+    section.contact_us .contact_circle {
+        width: 600px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    section.address .address_details_wrp {
+        padding: 15px;
+        height: 200px;
+    }
+
+    section.address .address_icon img {
+        width: 35px;
+    }
+
+    section.address .map iframe {
+        height: 200px;
+    }
+
+    /* --------------------- contact us page css end --------------------- */
+
+
+
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 12px;
+    }
+
+    .blog_point p {
+        padding: 4px 10px;
+        margin-right: 5px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+
+    section.blogs .blog_point {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 15px;
+    }
+
+    section.blogs .recent_img img {
+        height: 35px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    section.blogs .recent_text p {
+        font-size: 10px;
+    }
+
+    section.blogs .recent_posts {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .recent_text span {
+        font-size: 8px;
+    }
+
+    section.blogs .recent_text {
+        margin-left: 5px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 6px 10px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    section.blogs .category_link .blog_check {
+        margin-right: 5px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 4px 30px;
+    }
+
+    section.blogs .blog_search_icon i {
+        font-size: 11px;
+    }
+
+    section.blogs .blog_search_icon {
+        left: 10px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 5px 15px;
+    }
+
+    section.blogs .category_link .blog_check img {
+        width: 10px;
+    }
+
+
+
+    section.blog_inner_main .blog_text_wrp h5 {
+        font-size: 15px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h3 {
+        font-size: 18px;
+    }
+
+    section.blog_inner_main .comment-input {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    section.blog_inner_main .comment-input .form-group .form-control {
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
+
+    section.blog_inner_main .social_wrp a i {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    section.blog_inner_main .comment-input h5 {
+        font-size: 16px;
+    }
+
+    section.blog_inner_main .comment-input .form-group {
+        margin-bottom: 15px;
+    }
+
+    section.blog_inner_main .blog_wrp {
+        margin-right: 10px;
+    }
+
+    section.blog_inner_main .social_wrp a {
+        padding: 6px 15px;
+        margin-right: 5px;
+    }
+
+    section.blog_inner_main .comment-input .post_comment {
+        padding: 6px 20px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+section.service_brand .brand_logo img {
+    width: 60px;
+}
+section.service_brand .introduction_wrp .introduction_heading h3 {
+    font-size: 15px;
+}
+section.service_brand .introduction_wrp {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width:641px) and (max-width:786px) {
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 10px;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sub_pera {
+        margin-bottom: 10px;
+    }
+
+    .margin_top {
+        margin-top: 40px;
+    }
+
+    .padding_top_bottom {
+        padding: 40px 0px;
+    }
+
+    .main_btn {
+        margin-top: 10px;
+    }
+
+    .main_btn a {
+        padding: 6px 15px;
+    }
+
+    /* Banner heading section css start  */
+
+    section.leading_main .counter_child p {
+        font-size: 13px;
+    }
+
+    section.leading_main .counter_wrp {
+        padding: 10px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 13px;
+    }
+
+    /* Banner heading section css end  */
+    /* brand section css start  */
+
+
+
+    /* brand section css end  */
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 16px;
+    }
+
+    section.our_expertise .expertise_pera p {
+        font-size: 9px;
+    }
+
+    section.our_expertise .accordion_new .circle_arrow i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+
+    }
+
+    section.our_expertise .numeric_number p {
+        font-size: 14px;
+    }
+
+    section.our_expertise .accordion_intro {
+        margin-left: 15px;
+    }
+
+    section.our_expertise .accordion_new {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* our work section css start  */
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: 40px !important;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        width: 30px;
+        right: 176px;
+        top: 100px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        width: 30px;
+        left: 176px;
+        top: 100px;
+    }
+
+    /* our work section css end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 140px;
+    }
+
+    section.self_brand .bottom_pera {
+        margin-right: 0px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 50px;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 60px;
+    }
+
+    /* Introduction self brand section css start  */
+
+    /* More services section  section css start  */
+
+    section.attract .heading {
+        margin-right: 0;
+    }
+
+    section.more_services .services_wrp .service_child h3 {
+        font-size: 16px;
+    }
+
+    section.more_services .services_wrp {
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    /* More services section  section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_heading h3 {
+        font-size: 16px;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 20px;
+    }
+
+    section.our_clients .client_slider .user_name span {
+        font-size: 9px;
+    }
+
+    section.our_clients .client_slider .user_name {
+        line-height: 11px;
+    }
+
+    section.our_clients .owl-carousel .owl-item .clients_details .user_img img {
+        width: 30px;
+    }
+
+    section.our_clients .client_slider .clients_details {
+        margin-top: 15px;
+    }
+
+    section.our_clients .client_slider.owl-carousel .owl-stage {
+        padding-left: 40px !important;
+    }
+
+    /* our clients section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 70px;
+    }
+
+    section.attract_customer .attract_wrp {
+        margin-top: 20px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 17px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 100px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 100px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* Lets Talk section css start  */
+    .di_form {
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .di_form .form_heading h4 {
+        font-size: 16px;
+    }
+
+    .di_form .form-group {
+        padding: 0px 5px;
+    }
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px 0px;
+        border-radius: 3px;
+    }
+
+    .di_form .form-control {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    /* Lets Talk section css end  */
+
+
+    /* footer css start  */
+
+    footer .footer_heading h4 {
+        font-size: 13px;
+    }
+
+    footer .accordion-button {
+        font-size: 12px;
+    }
+
+    footer .footer_main_link {
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+
+    footer .accordion-item {
+        padding-bottom: 10px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    footer .bottom_content {
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+    footer .footer_icon img {
+        width: 40px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 10px;
+    }
+
+    footer .accordion-item ul {
+        margin-bottom: 0px;
+    }
+
+    footer .footer_icon img {
+        width: 30px;
+    }
+
+    footer .address_details ul li .footer_text {
+        margin-left: 10px;
+    }
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    footer .download_btn .download_arrow img {
+        width: 25px;
+    }
+
+    footer .back_top .up_arrow img {
+        width: 25px;
+    }
+
+
+    footer .social_media_icon ul li a {
+        font-size: 18px;
+    }
+
+    footer .social_media_icon ul {
+        column-gap: 5px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+
+    section.service-wrp .service-text {
+        margin-right: 25px;
+    }
+
+    section.online-store-wrp .online-shop-text {
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-wrp {
+        width: 28%;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-main::after {
+        border-bottom: 1px dashed #FEDD22;
+        width: 55%;
+    }
+
+    section.work-process-wrp .work-process-text {
+        margin-right: 10px;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 9px;
+    }
+
+    section.work-process-wrp .work-process-text .main-nav .bg_yellow {
+        padding: 4px 11px;
+
+    }
+
+    section.work-process-wrp .work-process-tab {
+        justify-content: center;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 23px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        width: 12px;
+        height: 12px;
+        left: 40px;
+    }
+
+    section.experiences-wrp .col-lg-3:nth-child(5) {
+        margin-left: -16px;
+    }
+
+    section.experiences-wrp .experiences-text {
+        width: 80%;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 7px 5px;
+        font-size: 7px;
+        border: 1px solid #d0d4db;
+        border-radius: 6px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a i {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp {
+        margin-top: 12px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 23px;
+        margin-left: 18px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 2px;
+        margin-top: 8px;
+        width: 57px;
+    }
+
+    section.support-wrp .support-icons-wrp .sub_pera p {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 16px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h2 {
+
+        font-size: 15px;
+
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h3 {
+        font-size: 14px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 7px 9px;
+    }
+
+    /* service responsive css end  */
+
+
+    /* service page 2 responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 55%;
+    }
+
+
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 0px 30px;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link {
+        border: 1px solid #d4d4d4;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link.active {
+        border: 1px solid #000000;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .heading h3 {
+        font-size: 11px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .sub_pera p {
+        font-size: 7px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border: 1px solid #d0d0d0;
+    }
+
+    section.social-media-wrp .social-media-text {
+        width: 75%;
+    }
+
+    section.social-media-wrp .social-media-text .heading h3 {
+        font-size: 20px;
+    }
+
+    section.advertising-wrp .ad-wrp {
+        margin-top: 35px;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 20px;
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link {
+        color: #808080;
+        border: 1px solid #1c1b1b;
+
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link.active {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    section.visitors-wrp .visitors-text .heading {
+        margin-bottom: 30px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 15px;
+    }
+
+
+    section.video-advertising-wrp .video-advertising-text .video-advertising-list .tick-img img {
+        width: 13px;
+        margin-right: 6px;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom {
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom .youtube-img {
+        width: 9%;
+    }
+
+    /* service page 2 responsive css end  */
+
+    /* about us page responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 70%;
+    }
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 45px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 164px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text h3 {
+        font-size: 15px;
+    }
+
+    section.excellence-wrp .key-feature-wrp {
+        padding: 15px 15px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 152px;
+    }
+
+    section.strategic_creative .team img {
+        width: 100%;
+    }
+
+    section.strategic_creative .heading {
+        margin-left: 20px;
+    }
+
+    section.strategic_creative .heading h3 {
+        font-size: 15px;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 45px;
+        margin-bottom: 10px;
+    }
+
+    section.business-growth-wrp .heading h4 {
+        font-family: 'NeueMontreal-Medium';
+        font-size: 14px;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    section.business-growth-wrp .col-lg-3 {
+        border-right: 1px solid #c5c5c5;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 0px 0px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 13px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .why-di-mb {
+        margin-bottom: 16px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 30px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 15px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 25px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 55px;
+    }
+
+    /* --------------------- contact us page css start --------------------- */
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 15px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 15px;
+    }
+
+    section.contact_us .contact_circle {
+        width: 600px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    section.address .address_details_wrp {
+        padding: 15px;
+        height: 200px;
+    }
+
+    section.address .address_icon img {
+        width: 35px;
+    }
+
+    section.address .map iframe {
+        height: 200px;
+    }
+
+    /* --------------------- contact us page css end --------------------- */
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 12px;
+    }
+
+    .blog_point p {
+        padding: 4px 10px;
+        margin-right: 5px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+
+    section.blogs .blog_point {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 15px;
+    }
+
+    section.blogs .recent_img img {
+        height: 35px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    section.blogs .recent_text p {
+        font-size: 10px;
+    }
+
+    section.blogs .recent_posts {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .recent_text span {
+        font-size: 8px;
+    }
+
+    section.blogs .recent_text {
+        margin-left: 5px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 6px 10px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    section.blogs .category_link .blog_check {
+        margin-right: 5px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 4px 30px;
+    }
+
+    section.blogs .blog_search_icon i {
+        font-size: 11px;
+    }
+
+    section.blogs .blog_search_icon {
+        left: 10px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 5px 15px;
+    }
+
+    section.blogs .category_link .blog_check img {
+        width: 10px;
+    }
+
+
+
+    section.blog_inner_main .blog_text_wrp h5 {
+        font-size: 15px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h3 {
+        font-size: 18px;
+    }
+
+    section.blog_inner_main .comment-input {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    section.blog_inner_main .comment-input .form-group .form-control {
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
+
+    section.blog_inner_main .social_wrp a i {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    section.blog_inner_main .comment-input h5 {
+        font-size: 16px;
+    }
+
+    section.blog_inner_main .comment-input .form-group {
+        margin-bottom: 15px;
+    }
+
+    section.blog_inner_main .blog_wrp {
+        margin-right: 10px;
+    }
+
+    section.blog_inner_main .social_wrp a {
+        padding: 6px 15px;
+        margin-right: 5px;
+    }
+
+    section.blog_inner_main .comment-input .post_comment {
+        padding: 6px 20px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+
+
+
+
+    /* FAQ section css start  */
+
+
+    section.faq-wrp .accordion-button::after {
+        width: 13px;
+        height: 13px;
+        background-size: 13px;
+
+    }
+
+    section.faq-wrp .accordion-button {
+        font-size: 12px;
+        font-family: 'NeueMontreal-Medium';
+    }
+
+    section.faq-wrp .accordion-item .accordion-collapse {
+        border-width: 0;
+        padding: 14px 14px 0px 14px;
+    }
+section.service_brand .brand_logo img {
+    width: 50px;
+}
+section.service_brand .introduction_wrp .introduction_heading h3 {
+    font-size: 14px;
+}
+section.service_brand .introduction_wrp {
+    margin-left: 10px;
+}
+
+
+}
+
+@media only screen and (min-width:571px) and (max-width:766px) {
+
+    p,
+    li,
+    a,
+    .form-control,
+    input,
+    .form-select {
+        font-size: 8px;
+    }
+
+    .container {
+        max-width: 800px !important;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sub_pera {
+        margin-bottom: 10px;
+    }
+
+    .margin_top {
+        margin-top: 40px;
+    }
+
+    .padding_top_bottom {
+        padding: 40px 0px;
+    }
+
+    .main_btn {
+        margin-top: 10px;
+    }
+
+    .main_btn a {
+        padding: 6px 15px;
+    }
+
+    /* Banner heading section css start  */
+
+    section.leading_main .counter_child p {
+        font-size: 13px;
+    }
+
+    section.leading_main .counter_wrp {
+        padding: 10px;
+    }
+
+    section.leading_main .counter_child span {
+        font-size: 13px;
+    }
+
+    /* Banner heading section css end  */
+    /* brand section css start  */
+
+
+    /* brand section css end  */
+
+    section.our_expertise .accordion_flex h3 {
+        font-size: 16px;
+    }
+
+    section.our_expertise .expertise_pera p {
+        font-size: 9px;
+    }
+
+    section.our_expertise .accordion_new .circle_arrow i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+
+    }
+
+    section.our_expertise .numeric_number p {
+        font-size: 14px;
+    }
+
+    section.our_expertise .accordion_intro {
+        margin-left: 15px;
+    }
+
+    section.our_expertise .accordion_new {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* our work section css start  */
+
+    section.our_work .our_work_slider.owl-carousel .owl-stage {
+        padding-left: 40px !important;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-next img {
+        width: 30px;
+        right: 176px;
+        top: 100px;
+    }
+
+    section.our_work .our_work_slider .owl-nav .owl-prev img {
+        width: 30px;
+        left: 176px;
+        top: 100px;
+    }
+
+    /* our work section css end  */
+
+    /* Introduction self brand section css start  */
+
+    section.self_brand .brand_logo img {
+        width: 140px;
+    }
+
+    section.self_brand .bottom_pera {
+        margin-right: 0px;
+    }
+
+    section.self_brand .influencer_flex {
+        padding-left: 50px;
+    }
+
+    section.self_brand .brand_logo2 img {
+        width: 60px;
+    }
+
+    /* Introduction self brand section css start  */
+
+    /* More services section  section css start  */
+
+    section.attract .heading {
+        margin-right: 0;
+    }
+
+    section.more_services .services_wrp .service_child h3 {
+        font-size: 16px;
+    }
+
+    section.more_services .services_wrp {
+        padding: 20px 25px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    /* More services section  section css end  */
+
+
+    /* our clients section css start  */
+
+    section.our_clients .client_heading h3 {
+        font-size: 16px;
+    }
+
+    section.our_clients .client_slider .client_wrp {
+        padding: 20px;
+    }
+
+    section.our_clients .client_slider .user_name span {
+        font-size: 9px;
+    }
+
+    section.our_clients .client_slider .user_name {
+        line-height: 11px;
+    }
+
+    section.our_clients .owl-carousel .owl-item .clients_details .user_img img {
+        width: 30px;
+    }
+
+    section.our_clients .client_slider .clients_details {
+        margin-top: 15px;
+    }
+
+    section.our_clients .client_slider.owl-carousel .owl-stage {
+        padding-left: 40px !important;
+    }
+
+    /* our clients section css end  */
+
+    /* Attract Customers section css start  */
+
+    section.attract_customer .attract_icon img {
+        width: 70px;
+    }
+
+    section.attract_customer .attract_wrp {
+        margin-top: 20px;
+    }
+
+    section.attract_customer .attract_heading h3 {
+        font-size: 17px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(2) {
+        width: 100px;
+    }
+
+    section.guaranteed_growth .guarantee_growth .small_graph img:nth-child(1) {
+        width: 100px;
+    }
+
+    /* Attract Customers section css end  */
+
+    /* Lets Talk section css start  */
+    .di_form {
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .di_form .form_heading h4 {
+        font-size: 13px;
+    }
+
+
+
+    .di_form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px 0px;
+        border-radius: 3px;
+    }
+
+    .di_form .form-control {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    /* Lets Talk section css end  */
+
+    /* footer css start  */
+
+    footer .footer_heading h4 {
+        font-size: 11px;
+    }
+
+    footer .accordion-button {
+        font-size: 10px;
+    }
+
+    footer .footer_main_link {
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+
+    footer .accordion-item {
+        padding-bottom: 10px;
+    }
+
+    footer .main_wrapper {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .bottom_content {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    footer .footer_icon img {
+        width: 40px;
+    }
+
+    .di_form input.btn_form {
+        padding: 5px;
+        border-radius: 2px;
+        margin-top: 5px;
+    }
+
+    section.copy_right .copy_pera p {
+        font-size: 7px;
+    }
+
+    footer .accordion-item ul {
+        margin-bottom: 0px;
+    }
+
+    footer .footer_icon img {
+        width: 30px;
+    }
+
+    footer .address_details ul li .footer_text {
+        margin-left: 10px;
+    }
+
+    section.copy_right {
+        padding: 10px 0px;
+    }
+
+    footer .social_media_icon ul li a {
+        font-size: 14px;
+    }
+
+    footer .social_media_icon ul {
+        column-gap: 5px;
+    }
+
+    /* footer css end  */
+
+    /* service responsive css start  */
+
+    section.service-wrp .service-text {
+        margin-right: 7px;
+    }
+
+    section.online-store-wrp .online-shop-text {
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-wrp {
+        width: 28%;
+    }
+
+    section.ecommerce-wrp .ecommerce-img-main::after {
+        border-bottom: 1px dashed #FEDD22;
+        width: 55%;
+    }
+
+    section.work-process-wrp .work-process-text {
+        margin-right: 10px;
+    }
+
+    section.work-process-wrp .work-process-text .sub_pera p {
+        font-size: 8px;
+    }
+
+    section.work-process-wrp .work-process-text .main-nav .bg_yellow {
+        padding: 4px 11px;
+        margin-bottom: 10px;
+
+    }
+
+    section.work-process-wrp .work-process-tab {
+        justify-content: space-evenly;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link {
+        font-size: 20px;
+    }
+
+    section.work-process-wrp .work-process-tab .nav-pills .nav-link.active::before {
+        width: 10px;
+        height: 10px;
+        left: 26px;
+    }
+
+    section.experiences-wrp .col-lg-3:nth-child(5) {
+        margin-left: 0px;
+    }
+
+    section.experiences-wrp .experiences-text {
+        width: 80%;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a {
+        padding: 5px 3px;
+        font-size: 6px;
+        border: 1px solid #d0d4db;
+        border-radius: 5px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp .experiences-btn a i {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    section.experiences-wrp .experiences-btn-wrp {
+        margin-top: 5px;
+    }
+
+    section.support-wrp .support-text {
+        margin-bottom: 0px;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 23px;
+        margin-left: 18px;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav p {
+        padding: 2px;
+        margin-top: 8px;
+        width: 57px;
+    }
+
+    section.support-wrp .support-icons-wrp .sub_pera p {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(1) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(2) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(3) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(4) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(5) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .col-lg-2:nth-child(6) .support-icons-wrp {
+        margin-top: 10px;
+    }
+
+    section.support-wrp .support-icons-wrp {
+        text-align: center;
+    }
+
+    section.support-wrp .support-icons-wrp .main-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.support-wrp .support-icons-wrp img {
+        width: 20px;
+        margin-left: 0px;
+    }
+
+    section.support-wrp .col-lg-8 {
+        text-align: center;
+        margin: 0px auto;
+    }
+
+
+    section.expert-now-wrp .expert-now-text-wrp .heading span {
+        font-size: 16px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h2 {
+
+        font-size: 15px;
+
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .heading h3 {
+        font-size: 14px;
+    }
+
+    section.expert-now-wrp .expert-now-text-wrp .main_btn a {
+        padding: 7px 9px;
+    }
+
+    /* service responsive css end  */
+
+    /* service page 2 responsive css start  */
+
+    section.marketing-wrp .marketing-text {
+        width: 66%;
+    }
+
+
+
+    section.your-brand-wrp .your-brand-text {
+        margin: 0px 20px;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link {
+        border: 1px solid #d4d4d4;
+        padding: 5px 12px;
+    }
+
+    section.advertising-wrp .advertising-nav .nav-link.active {
+        border: 1px solid #000000;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .heading h3 {
+        font-size: 10px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp .sub_pera p {
+        font-size: 6px;
+    }
+
+    section.advertising-wrp .advertising-content-wrp {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border: 1px solid #d0d0d0;
+    }
+
+    section.work-process-wrp.work-mt {
+        margin-top: 11px;
+    }
+
+
+    section.social-media-wrp .social-media-text {
+        width: 85%;
+    }
+
+
+    section.social-media-wrp .social-media-text .heading h3 {
+        font-size: 15px;
+    }
+
+    section.advertising-wrp .ad-wrp {
+        margin-top: 35px;
+    }
+
+    section.advertising-wrp .ad-text {
+        margin: 20px;
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link {
+        color: #808080;
+        border: 1px solid #1c1b1b;
+
+    }
+
+    section.advertising-wrp .advertising-nav-new .nav-link.active {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    section.visitors-wrp .visitors-text .heading {
+        margin-bottom: 30px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow i {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera p {
+        margin-left: 15px;
+    }
+
+
+    section.video-advertising-wrp .video-advertising-text .video-advertising-list .tick-img img {
+        width: 13px;
+        margin-right: 6px;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom {
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    section.video-advertising-wrp .video-advertising-bottom .youtube-img {
+        width: 9%;
+    }
+
+    /* service page 2 responsive css end  */
+
+
+    /* about us page responsive css start  */
+
+
+    section.excellence-wrp .key-feature-wrp {
+        padding: 10px 10px;
+        margin-top: 15px;
+
+    }
+
+    section.excellence-wrp .key-feature-wrp .feature_icon img {
+        width: 35px;
+    }
+
+    section.excellence-wrp .key-feature-wrp .key-feature-text h3 {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 14px;
+    }
+
+    section.excellence-wrp .key-feature-wrp::after {
+        width: 140px;
+    }
+
+    section.strategic_creative .row {
+        flex-direction: row;
+    }
+
+    section.strategic_creative .heading h3 {
+        font-size: 12px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 20px 10px;
+        text-align: left;
+    }
+
+    section.business-growth-wrp .growth img {
+        width: 40px;
+        margin-bottom: 5px;
+    }
+
+    section.business-growth-wrp .heading h4 {
+        font-size: 12px;
+    }
+
+    section.business-growth-wrp .business-growth {
+        padding: 0px 0px;
+        text-align: left;
+    }
+
+    section.business-growth-wrp .col-lg-3 {
+        border-bottom: none;
+        border-right: 1px solid #c5c5c5;
+    }
+
+    section.business-growth-wrp .heading h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading h3 {
+        font-size: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .circle-arrow-blue i {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .why-di-mb {
+        margin-bottom: 15px;
+    }
+
+    section.visitors-wrp .visitors-text .visitor-pera-wrp .visitor-pera .heading {
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .heading h3 {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp .consultant-img img {
+        width: 25px;
+    }
+
+    section.consultant-wrp .consultant-content-wrp {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    section.consultant-wrp .col-lg-6:nth-child(even) {
+        margin-top: 25px;
+    }
+
+
+    /* --------------------- contact us page css start --------------------- */
+
+    section.contact_us .form_contact .form-group .form-control {
+        padding: 8px 15px;
+        border: 1px solid #fcf315;
+    }
+
+    section.contact_us .form_contact .form-group {
+        margin-top: 15px;
+    }
+
+    section.contact_us .contact_circle {
+        width: 600px;
+    }
+
+    section.address .state_heading h4 {
+        font-size: 18px;
+    }
+
+    section.address .address_details_wrp {
+        padding: 15px;
+        height: 200px;
+    }
+
+    section.address .address_icon img {
+        width: 35px;
+    }
+
+    section.address .map iframe {
+        height: 200px;
+    }
+
+    /* --------------------- contact us page css end --------------------- */
+
+
+
+    /* ----------------  Blog page css start ----------------  */
+
+    section.blogs .blog_text_wrp h3 {
+        font-size: 12px;
+    }
+
+    .blog_point p {
+        padding: 4px 10px;
+        margin-right: 5px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+
+    section.blogs .blog_point {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    section.blogs .blog_wrp {
+        margin-bottom: 15px;
+    }
+
+    section.blogs .recent_img img {
+        height: 35px;
+    }
+
+    section.blogs .blog_point span {
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+
+    section.blogs .blog_subheading h5 {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    section.blogs .recent_text p {
+        font-size: 10px;
+    }
+
+    section.blogs .recent_posts {
+        margin-bottom: 10px;
+    }
+
+    section.blogs .recent_text span {
+        font-size: 8px;
+    }
+
+    section.blogs .recent_text {
+        margin-left: 5px;
+    }
+
+    section.blogs .number_list ul {
+        padding: 6px 10px;
+    }
+
+    section.blogs .number_list ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    section.blogs .blog_right_wrp {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    section.blogs .category_link .blog_check {
+        margin-right: 5px;
+    }
+
+    section.blogs .blog_input .form-control {
+        padding: 4px 30px;
+    }
+
+    section.blogs .blog_search_icon i {
+        font-size: 11px;
+    }
+
+    section.blogs .blog_search_icon {
+        left: 10px;
+    }
+
+    section.blogs .search_btn .search {
+        padding: 5px 15px;
+    }
+
+    section.blogs .category_link .blog_check img {
+        width: 10px;
+    }
+
+
+    section.blog_inner_main .blog_text_wrp h5 {
+        font-size: 15px;
+    }
+
+    section.blog_inner_main .blog_text_wrp h3 {
+        font-size: 18px;
+    }
+
+    section.blog_inner_main .comment-input {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    section.blog_inner_main .comment-input .form-group .form-control {
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
+
+    section.blog_inner_main .social_wrp a i {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    section.blog_inner_main .comment-input h5 {
+        font-size: 16px;
+    }
+
+    section.blog_inner_main .comment-input .form-group {
+        margin-bottom: 15px;
+    }
+
+    section.blog_inner_main .blog_wrp {
+        margin-right: 10px;
+    }
+
+    section.blog_inner_main .social_wrp a {
+        padding: 6px 15px;
+        margin-right: 5px;
+    }
+
+    section.blog_inner_main .comment-input .post_comment {
+        padding: 6px 20px;
+    }
+
+    /* ----------------  Blog page css end ----------------  */
+
+
+    /* FAQ section css start  */
+
+
+    section.faq-wrp .accordion-button::after {
+        width: 13px;
+        height: 13px;
+        background-size: 13px;
+
+    }
+
+    section.faq-wrp .accordion-button {
+        font-size: 10px;
+        font-family: 'NeueMontreal-Medium';
+    }
+
+    section.faq-wrp .accordion-item .accordion-collapse {
+        border-width: 0;
+        padding: 11px 11px 0px 11px;
+    }
+
+    /* FAQ section css end  */
+    section.service_brand .brand_logo img {
+    width: 50px;
+}
+section.service_brand .introduction_wrp .introduction_heading h3 {
+    font-size: 14px;
+}
+section.service_brand .introduction_wrp {
+    margin-left: 10px;
+}
+
+
+}
