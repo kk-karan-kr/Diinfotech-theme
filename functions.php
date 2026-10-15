@@ -169,6 +169,8 @@ function di_infotech_scripts() {
 			array( 'di-infotech-style' ),
 			di_infotech_asset_version( '/assets/css/service-page-v2.css' )
 		);
+		wp_enqueue_script( 'di-infotech-testimonials', get_template_directory_uri() . '/assets/js/testimonial-slider.js', array(), di_infotech_asset_version( '/assets/js/testimonial-slider.js' ), true );
+		wp_script_add_data( 'di-infotech-testimonials', 'strategy', 'defer' );
 	}
 
 	wp_style_add_data( 'di-infotech-style', 'rtl', 'replace' );
