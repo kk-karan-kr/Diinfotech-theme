@@ -5,8 +5,8 @@ $style = get_sub_field('style');
 if (!in_array($style, array('yellow','blue','dark','light'), true)) { $style = 'yellow'; }
 if (!$eyebrow && !$heading && !$description && empty($primary['url']) && empty($secondary['url'])) { return; }
 $icon_choice = get_sub_field('icon');
-// Old saved CTAs have no icon field: preserve their arrow until explicitly changed.
-$icon_choice = $icon_choice ?: 'arrow-right';
+// Empty optional icons must not restore a hard-coded arrow.
+$icon_choice = $icon_choice ?: 'none';
 $icon = di_service_v2_icon(array(
     'icon' => 'arrow-right' === $icon_choice ? 'custom' : $icon_choice,
     'icon_custom' => 'arrow-right' === $icon_choice ? 'fa-solid fa-arrow-right' : get_sub_field('icon_custom'),

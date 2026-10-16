@@ -61,8 +61,8 @@ function di_service_icon_fields() {
     );
     foreach ( $parents as $parent => $key ) {
         $fields[$parent] = array(
-            array('key'=>$key.'_custom', 'parent'=>$parent, 'label'=>'Font Awesome name (HTML: .service-v2-icon)', 'name'=>'icon_custom', 'type'=>'text', 'required'=>1, 'instructions'=>'Use a Free 6.6 icon: bullhorn, fa-bullhorn, fa-solid fa-bullhorn, or fa-brands fa-google. No HTML or Pro icons.', 'conditional_logic'=>array(array(array('field'=>$key,'operator'=>'==','value'=>'custom')))),
-            array('key'=>$key.'_image', 'parent'=>$parent, 'label'=>'Uploaded icon (HTML: .service-v2-icon)', 'name'=>'icon_image', 'type'=>'image', 'required'=>1, 'return_format'=>'id', 'preview_size'=>'thumbnail', 'library'=>'all', 'mime_types'=>'png,webp,jpg,jpeg', 'instructions'=>'Use a square PNG or WebP, preferably with a transparent background.', 'conditional_logic'=>array(array(array('field'=>$key,'operator'=>'==','value'=>'image'))))
+            array('key'=>$key.'_custom', 'parent'=>$parent, 'label'=>'Font Awesome name (HTML: .service-v2-icon)', 'name'=>'icon_custom', 'type'=>'text', 'required'=>0, 'instructions'=>'Use a Free 6.6 icon: bullhorn, fa-bullhorn, fa-solid fa-bullhorn, or fa-brands fa-google. No HTML or Pro icons.', 'conditional_logic'=>array(array(array('field'=>$key,'operator'=>'==','value'=>'custom')))),
+            array('key'=>$key.'_image', 'parent'=>$parent, 'label'=>'Uploaded icon (HTML: .service-v2-icon)', 'name'=>'icon_image', 'type'=>'image', 'required'=>0, 'return_format'=>'id', 'preview_size'=>'thumbnail', 'library'=>'all', 'mime_types'=>'png,webp,jpg,jpeg', 'instructions'=>'Use a square PNG or WebP, preferably with a transparent background.', 'conditional_logic'=>array(array(array('field'=>$key,'operator'=>'==','value'=>'image'))))
         );
     }
     return $fields;
@@ -72,9 +72,9 @@ function di_service_icon_fields() {
 function di_service_inline_icon_fields() {
     $base = array('parent'=>'layout_v2_inline_cta', 'parent_layout'=>'layout_v2_inline_cta');
     return array(
-        array_merge($base, array('key'=>'field_v2_inline_icon', 'name'=>'icon', 'label'=>'CTA icon (HTML: .seo-inline-cta__icon)', 'type'=>'select', 'ui'=>1, 'required'=>1, 'default_value'=>'arrow-right', 'choices'=>array_merge(array('arrow-right'=>'Arrow (existing appearance)'), di_service_icon_presets(), array('custom'=>'Custom Font Awesome name','image'=>'Uploaded icon','none'=>'No icon')))),
-        array_merge($base, array('key'=>'field_v2_inline_icon_custom', 'name'=>'icon_custom', 'label'=>'Font Awesome name (HTML: .seo-inline-cta__icon)', 'type'=>'text', 'required'=>1, 'instructions'=>'Example: fa-solid fa-bullhorn or fa-brands fa-google. Use Free 6.6 icons; no HTML.', 'conditional_logic'=>array(array(array('field'=>'field_v2_inline_icon','operator'=>'==','value'=>'custom'))))),
-        array_merge($base, array('key'=>'field_v2_inline_icon_image', 'name'=>'icon_image', 'label'=>'Uploaded icon (HTML: .seo-inline-cta__icon)', 'type'=>'image', 'return_format'=>'id', 'preview_size'=>'thumbnail', 'mime_types'=>'png,webp,jpg,jpeg', 'required'=>1, 'conditional_logic'=>array(array(array('field'=>'field_v2_inline_icon','operator'=>'==','value'=>'image')))))
+        array_merge($base, array('key'=>'field_v2_inline_icon', 'name'=>'icon', 'label'=>'CTA icon (HTML: .seo-inline-cta__icon)', 'type'=>'select', 'ui'=>1, 'allow_null'=>1, 'required'=>0, 'default_value'=>'none', 'choices'=>array_merge(array('arrow-right'=>'Arrow (existing appearance)'), di_service_icon_presets(), array('custom'=>'Custom Font Awesome name','image'=>'Uploaded icon','none'=>'No icon')))),
+        array_merge($base, array('key'=>'field_v2_inline_icon_custom', 'name'=>'icon_custom', 'label'=>'Font Awesome name (HTML: .seo-inline-cta__icon)', 'type'=>'text', 'required'=>0, 'instructions'=>'Example: fa-solid fa-bullhorn or fa-brands fa-google. Use Free 6.6 icons; no HTML.', 'conditional_logic'=>array(array(array('field'=>'field_v2_inline_icon','operator'=>'==','value'=>'custom'))))),
+        array_merge($base, array('key'=>'field_v2_inline_icon_image', 'name'=>'icon_image', 'label'=>'Uploaded icon (HTML: .seo-inline-cta__icon)', 'type'=>'image', 'return_format'=>'id', 'preview_size'=>'thumbnail', 'mime_types'=>'png,webp,jpg,jpeg', 'required'=>0, 'conditional_logic'=>array(array(array('field'=>'field_v2_inline_icon','operator'=>'==','value'=>'image')))))
     );
 }
 add_action('acf/init', static function () {
@@ -115,6 +115,9 @@ add_filter('acf/load_field', static function ($field) {
         if ($field['key'] === $icon_key) {
             $field['choices'] = array_merge($field['choices'] ?? array(), di_service_icon_presets(), array('custom'=>'Custom Font Awesome name', 'image'=>'Uploaded icon', 'none'=>'No icon'));
             $field['ui'] = 1;
+            $field['required'] = 0;
+            $field['allow_null'] = 1;
+            $field['default_value'] = 'none';
             $field['instructions'] = 'Search presets, enter a Font Awesome name, upload an icon, or choose No icon.';
         }
         if ($field['key'] === $parent) {

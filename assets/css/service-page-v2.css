@@ -1622,11 +1622,29 @@
 .seo-delhi-page .service-v2-services .advertising-content-wrp {
 	height: calc(100% - 24px);
 	margin-bottom: 24px;
+	display: flex;
+	align-items: flex-start;
+	gap: 18px;
+	padding: 28px 24px;
+}
+.service-v2-services .service-v2-card-visual { display: flex; flex: 0 0 52px; flex-direction: column; align-items: center; gap: 8px; }
+.service-v2-services .service-v2-card-visual .service-v2-icon { width: 52px; height: 52px; flex: 0 0 52px; margin: 0; }
+.service-v2-services .advertising-content-wrp > .heading { flex: 1; min-width: 0; margin: 0; text-align: left; overflow-wrap: anywhere; }
+@media (max-width: 767px) {
+	.seo-delhi-page .service-v2-services .advertising-content-wrp { padding: 22px 18px; gap: 14px; }
+	.service-v2-services .service-v2-card-visual { flex-basis: 44px; }
+	.service-v2-services .service-v2-card-visual .service-v2-icon { width: 44px; height: 44px; flex-basis: 44px; font-size: 19px; }
 }
 
 .seo-inline-cta {
 	padding: 24px 0;
 }
+.seo-delhi-page .service-v2-industries .col-lg-3:nth-child(5) { margin-left: 0; }
+.seo-delhi-page .service-v2-industries .experiences-btn-wrp { height: calc(100% - 20px); }
+.seo-delhi-page .service-v2-industries .experiences-btn { height: 100%; padding: 18px 16px; background: #fff; border: 1px solid #e5e5e5; border-radius: 10px; }
+.seo-delhi-page .service-v2-industries .experiences-btn :is(.service-v2-industry-label,.service-v2-industry-link) { display: flex; align-items: center; min-height: 44px; margin: 0; padding: 0; background: none; border: 0; color: #20252b; font-size: 16px; line-height: 1.4; font-weight: 600; overflow-wrap: anywhere; }
+.seo-delhi-page .service-v2-industries .service-v2-industry-link > span { display: none; }
+.seo-delhi-page .service-v2-industries .experiences-btn p { margin: 8px 0 0; color: #657388; font-size: 14px; line-height: 1.5; }
 
 .seo-inline-cta__inner {
 	position: relative;
