@@ -15,7 +15,7 @@ $highlighted_heading = (string) get_sub_field( 'highlighted_heading' );
 $description         = (string) get_sub_field( 'description' );
 $primary_button      = get_sub_field( 'primary_button' );
 $secondary_button    = get_sub_field( 'secondary_button' );
-$proof_items         = get_sub_field( 'proof_items' );
+$proof_items         = di_service_v2_rows( get_sub_field( 'proof_items' ) );
 $right_panel_type    = (string) get_sub_field( 'right_panel_type' );
 $hero_image          = get_sub_field( 'hero_image' );
 $form_kicker         = (string) get_sub_field( 'form_kicker' );
@@ -25,12 +25,12 @@ $form_description    = (string) get_sub_field( 'form_description' );
 $form_privacy_note   = (string) get_sub_field( 'form_privacy_note' );
 $contact_form_shortcode = trim( (string) get_sub_field( 'contact_form_shortcode' ) );
 
+if ( 'image' === $right_panel_type && ! $hero_image ) { $right_panel_type = 'none'; }
+if ( 'enquiry_form' === $right_panel_type && '' === $contact_form_shortcode ) { $right_panel_type = 'none'; }
 $has_right_panel = in_array( $right_panel_type, array( 'enquiry_form', 'image' ), true );
 $hero_classes    = 'service-v2-hero__grid';
 $hero_classes   .= $has_right_panel ? '' : ' service-v2-hero__grid--single';
-if ( '' === $contact_form_shortcode ) {
-	$contact_form_shortcode = '[contact-form-7 id="2de00b3" title="Service page form"]';
-}
+if ( ! $eyebrow && ! $heading && ! $highlighted_heading && ! $description && ! $proof_items && ! $has_right_panel && empty( $primary_button['url'] ) && empty( $secondary_button['url'] ) ) { return; }
 ?>
 
 <section class="service-v2-hero" aria-labelledby="service-v2-title-<?php echo esc_attr( get_the_ID() ); ?>">
@@ -116,7 +116,13 @@ if ( '' === $contact_form_shortcode ) {
 
 					<?php if ( shortcode_exists( 'contact-form-7' ) ) : ?>
 						<div class="service-v2-hero__cf7">
-							<?php echo do_shortcode( $contact_form_shortcode ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+							<?php $submit_text = (string) get_sub_field( 'form_submit_text' );
+$submit_filter = static function ( $tag ) use ( $submit_text ) {
+    if ( 'submit' === $tag->type && '' !== trim( $submit_text ) ) { $tag->values = array( $submit_text ); $tag->raw_values = array( $submit_text ); }
+    return $tag;
+};
+add_filter( 'wpcf7_form_tag', $submit_filter );
+try { echo do_shortcode( $contact_form_shortcode ); } finally { remove_filter( 'wpcf7_form_tag', $submit_filter ); } // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						</div>
 					<?php elseif ( current_user_can( 'edit_post', get_the_ID() ) ) : ?>
 						<p class="service-v2-hero__form-warning"><?php esc_html_e( 'Contact Form 7 is not active, so the hero form cannot be displayed.', 'di-infotech' ); ?></p>

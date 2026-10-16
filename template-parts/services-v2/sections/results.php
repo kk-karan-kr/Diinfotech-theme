@@ -1,7 +1,7 @@
 <?php
 $eyebrow = get_sub_field( 'eyebrow' ); $heading = get_sub_field( 'heading' ); $description = get_sub_field( 'description' );
-$benefits = get_sub_field( 'benefits' ); $clients = get_sub_field( 'clients' ); $cta = get_sub_field( 'cta_button' ); $background = get_sub_field( 'background' );
-if ( ! $heading && ! $clients ) { return; }
+$benefits = di_service_v2_rows( get_sub_field( 'benefits' ) ); $clients = di_service_v2_rows( get_sub_field( 'clients' ) ); $cta = get_sub_field( 'cta_button' ); $background = get_sub_field( 'background' );
+if ( ! $eyebrow && ! $heading && ! $description && ! $benefits && ! $clients && empty( $cta['url'] ) ) { return; }
 ?>
 <section class="service-v2-section service-v2-results <?php echo esc_attr( di_service_v2_background_class( $background ) ); ?>">
 	<div class="service-v2-container service-v2-results__layout">
@@ -9,7 +9,7 @@ if ( ! $heading && ! $clients ) { return; }
 			<?php if ( $eyebrow ) : ?><p class="service-v2-kicker"><?php echo esc_html( $eyebrow ); ?></p><?php endif; ?>
 			<?php if ( $heading ) : ?><h2><?php echo esc_html( $heading ); ?></h2><?php endif; ?>
 			<?php if ( $description ) : ?><div class="service-v2-copy"><?php echo wp_kses_post( wpautop( $description ) ); ?></div><?php endif; ?>
-			<?php if ( $benefits ) : ?><div class="service-v2-benefit-list"><?php foreach ( $benefits as $item ) : ?><article><?php echo di_service_v2_icon( $item['icon'] ?? '' ); // phpcs:ignore ?><div><h3><?php echo esc_html( $item['title'] ?? '' ); ?></h3><?php echo wp_kses_post( wpautop( $item['description'] ?? '' ) ); ?></div></article><?php endforeach; ?></div><?php endif; ?>
+			<?php if ( $benefits ) : ?><div class="service-v2-benefit-list"><?php foreach ( $benefits as $item ) : ?><article><?php echo di_service_v2_icon( $item ); // phpcs:ignore ?><div><h3><?php echo esc_html( $item['title'] ?? '' ); ?></h3><?php echo wp_kses_post( wpautop( $item['description'] ?? '' ) ); ?></div></article><?php endforeach; ?></div><?php endif; ?>
 			<?php di_service_v2_link( $cta ); ?>
 		</div>
 		<?php if ( $clients ) : ?><div class="service-v2-result-cards service-v2-auto-grid">

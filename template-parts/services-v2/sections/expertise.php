@@ -1,17 +1,8 @@
 <?php
 /** Preview-matched digital expertise section. */
 $expertise = get_field( 'digital_marketing_expertise' );
-$heading   = ! empty( $expertise['heading'] ) ? $expertise['heading'] : __( 'Our Complete Digital Marketing Services', 'di-infotech' );
-$items     = ! empty( $expertise['items'] ) ? $expertise['items'] : array(
-	array( 'title' => 'Search Engine Optimization (SEO)', 'description' => 'Improve technical foundations, content relevance and authority to grow qualified organic visibility.', 'link' => array( 'url' => home_url( '/services/seo-company-in-india/' ) ) ),
-	array( 'title' => 'Social Media Marketing', 'description' => 'Build an engaged audience through useful content, community management and focused campaigns.', 'link' => array( 'url' => home_url( '/services/social-media-marketing-agency-in-delhi/' ) ) ),
-	array( 'title' => 'Performance Marketing / PPC', 'description' => 'Create measurable paid campaigns focused on qualified traffic, leads and return on investment.', 'link' => array( 'url' => home_url( '/services/performance-marketing-agency/' ) ) ),
-	array( 'title' => 'Email Marketing', 'description' => 'Nurture prospects and customers with relevant campaigns, automation and performance reporting.', 'link' => array( 'url' => home_url( '/services/email-marketing-service/' ) ) ),
-	array( 'title' => 'Brand Management', 'description' => 'Keep your positioning and customer experience consistent across important digital touchpoints.', 'link' => array( 'url' => home_url( '/services/strategic-brand-management/' ) ) ),
-	array( 'title' => 'UI/UX Designing', 'description' => 'Design clear, accessible user journeys that make websites easier to understand and use.', 'link' => array( 'url' => home_url( '/services/ui-ux-design-agency/' ) ) ),
-	array( 'title' => 'Ecommerce Development', 'description' => 'Build scalable online stores that support better discovery, usability and conversion.', 'link' => array( 'url' => home_url( '/services/ecommerce-development-company-in-india/' ) ) ),
-	array( 'title' => 'Ecommerce SEO', 'description' => 'Improve category and product visibility across high-intent commercial searches.', 'link' => array( 'url' => home_url( '/services/ecommerce-seo-marketing/' ) ) ),
-	array( 'title' => 'Generative Engine Optimization', 'description' => 'Improve brand visibility across AI answers, large language models and generative discovery.', 'link' => array( 'url' => home_url( '/services/generative-engine-optimization/' ) ) ),
-);
+$heading = is_array( $expertise ) ? ( $expertise['heading'] ?? '' ) : '';
+$items = is_array( $expertise ) && is_array( $expertise['items'] ?? null ) ? $expertise['items'] : array();
+if ( ! $heading && ! $items ) { return; }
 ?>
 <section class="our_expertise bg_black padding_top_bottom"><div class="container"><div class="row"><div class="col-lg-12"><div class="heading"><h2 class="text-white"><?php echo esc_html( $heading ); ?></h2></div></div></div><div class="row align-items-center"><div class="col-lg-7 col-sm-7"><div class="row_inner accordion_wrp"><?php foreach ( $items as $i => $item ) : ?><div class="accordion_new<?php echo 0 === $i ? ' accordion_active' : ''; ?>"><div class="numeric_number"><p><?php echo esc_html( str_pad( (string) ( $i + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></p></div><div class="accordion_intro"><div class="accordion_flex"><h3><?php echo esc_html( $item['title'] ?? '' ); ?></h3></div><div class="accordion_content"><div class="expertise_pera"><p><?php echo esc_html( $item['description'] ?? '' ); ?></p></div></div></div><div class="circle_arrow"><a href="<?php echo esc_url( $item['link']['url'] ?? '#' ); ?>"><i class="fa-solid fa-arrow-right"></i></a></div></div><?php endforeach; ?></div></div><div class="col-lg-5 col-sm-5"><div class="seo-expertise-visual"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/digital-marketing-slider-source.png' ); ?>" alt="<?php esc_attr_e( 'Digital marketing services', 'di-infotech' ); ?>" loading="lazy"></div></div></div></div></section>

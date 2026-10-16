@@ -2,11 +2,11 @@
 $eyebrow     = get_sub_field( 'eyebrow' );
 $heading     = get_sub_field( 'heading' );
 $description = get_sub_field( 'description' );
-$logos       = (array) get_sub_field( 'brand_logos' );
+$logos       = di_service_v2_rows( get_sub_field( 'brand_logos' ) );
 $display     = 'slider' === get_sub_field( 'display_style' ) ? 'slider' : 'grid';
 $background  = get_sub_field( 'background' );
 
-if ( ! $heading && ! $logos ) {
+if ( ! $eyebrow && ! $heading && ! $description && ! $logos ) {
 	return;
 }
 ?>

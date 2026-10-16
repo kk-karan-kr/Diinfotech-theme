@@ -572,10 +572,34 @@
 	scrollbar-width: thin;
 }
 
-.service-v2-logo-grid--slider .service-v2-logo-card {
+.service-v2-logo-grid--slider > div {
 	flex: 0 0 190px;
 	scroll-snap-align: start;
 }
+.service-v2-logo-grid--slider { flex-wrap: nowrap; justify-content: flex-start !important; }
+.seo-delhi-page .seo-ai-visual--acf { min-height: 0; height: auto; display: flex; flex-direction: column; justify-content: center; gap: 20px; background: none; }
+.seo-ai-visual--acf > img { width: 100%; height: auto; object-fit: contain; }
+.service-v2-platform-list { display: flex; flex-wrap: wrap; gap: 16px; }
+.service-v2-platform-list > div { display: flex; align-items: center; gap: 10px; }
+.service-v2-platform-list img { width: 48px; height: 48px; object-fit: contain; }
+.service-v2-process-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px; }
+.service-v2-process-cards article { padding: 24px; border: 1px solid #dce4ef; border-radius: 16px; }
+.service-v2-process img { max-width: 100%; height: auto; }
+.service-v2-cta-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.service-v2-rating { color: #896400; }
+.service-v2-icon { flex-shrink: 0; }
+.service-v2-icon--image img { width: 100%; height: 100%; max-width: 100%; object-fit: contain; }
+.seo-inline-cta__icon .service-v2-icon { width: 100%; height: 100%; margin: 0; background: transparent; color: inherit; border-radius: inherit; font-size: inherit; }
+.seo-inline-cta__icon .service-v2-icon--image { padding: 10px; }
+.seo-delhi-page .seo-inline-cta__inner--no-icon { grid-template-columns: minmax(0, 1fr) auto; }
+@media (max-width: 767px) { .seo-delhi-page .seo-inline-cta__inner--no-icon { grid-template-columns: 1fr; } }
+.seo-delhi-page .service-v2-bg--white { background: #fff !important; }
+.seo-delhi-page .service-v2-bg--light { background: #f5f8fc !important; }
+.seo-delhi-page .service-v2-bg--dark { background: #071a38 !important; color: #fff; }
+.seo-delhi-page .service-v2-bg--dark :is(h2,h3,p,.grey-text) { color: #fff; }
+.seo-delhi-page .service-v2-final-cta--blue { background: #1254c5; color: #fff; }
+.seo-delhi-page .service-v2-final-cta--dark { background: #071a38; color: #fff; }
+.seo-delhi-page :is(.service-v2-final-cta--blue,.service-v2-final-cta--dark) :is(h2,p) { color: #fff; }
 
 .service-v2-logo-card {
 	display: grid;
@@ -2298,6 +2322,14 @@
 	min-height: 540px;
 	border-radius: 50% 50% 45% 45%;
 	background: radial-gradient(circle at 50% 45%, #fff 0 28%, #dcecff 29% 52%, rgba(53, 110, 234, .08) 53% 68%, transparent 69%);
+}
+
+.seo-delhi-page .seo-why-visual.seo-why-visual--image {
+	display: flex;
+	align-items: center;
+	min-height: 0;
+	border-radius: 0;
+	background: none;
 }
 
 .seo-delhi-page .seo-why-browser {

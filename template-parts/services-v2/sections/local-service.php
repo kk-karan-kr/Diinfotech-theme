@@ -8,12 +8,12 @@
 $eyebrow     = get_sub_field( 'eyebrow' );
 $heading     = get_sub_field( 'heading' );
 $description = get_sub_field( 'description' );
-$locations   = (array) get_sub_field( 'locations' );
+$locations   = di_service_v2_rows( get_sub_field( 'locations' ) );
 $image       = get_sub_field( 'image' );
 $cta         = get_sub_field( 'cta_button' );
 $background  = get_sub_field( 'background' );
 
-if ( ! $heading && ! $description && ! $locations && ! $image ) {
+if ( ! $eyebrow && ! $heading && ! $description && ! $locations && ! $image && empty( $cta['url'] ) ) {
 	return;
 }
 ?>
@@ -49,7 +49,6 @@ if ( ! $heading && ! $description && ! $locations && ! $image ) {
 					<div class="service-v2-local-map" aria-hidden="true">
 						<span class="service-v2-local-map__ring service-v2-local-map__ring--one"></span><span class="service-v2-local-map__ring service-v2-local-map__ring--two"></span>
 						<span class="service-v2-local-map__pin"><i class="fa-solid fa-location-dot"></i></span>
-						<strong>Delhi NCR</strong><small>Local visibility that reaches nearby customers</small>
 					</div>
 				<?php endif; ?>
 			</div>

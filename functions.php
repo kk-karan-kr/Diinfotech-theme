@@ -398,6 +398,7 @@ add_action( 'wp_head', 'di_infotech_output_service_hreflang' );
 
 // Editor labels and required fields for the service templates.
 require_once get_template_directory() . '/inc/acf-service-editor.php';
+require_once get_template_directory() . '/inc/service-icons.php';
 
 /** Allow the performance CTA to link to a form on the current page. */
 function di_infotech_performance_cta_field( $field ) {

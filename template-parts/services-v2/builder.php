@@ -40,6 +40,16 @@ if ( ! function_exists( 'di_service_v2_link' ) ) {
 
 if ( ! function_exists( 'di_service_v2_icon' ) ) {
 	function di_service_v2_icon( $icon ) {
+		$row = is_array( $icon ) ? $icon : array( 'icon' => $icon );
+		$icon = $row['icon'] ?? '';
+		if ( 'none' === $icon || '' === $icon ) { return ''; }
+		if ( 'image' === $icon ) {
+			return ! empty( $row['icon_image'] ) ? '<span class="service-v2-icon service-v2-icon--image" aria-hidden="true">' . di_infotech_image( $row['icon_image'], 'thumbnail', array( 'alt'=>'', 'loading'=>'lazy' ) ) . '</span>' : '';
+		}
+		if ( 'custom' === $icon || ( function_exists('di_service_icon_presets') && isset(di_service_icon_presets()[$icon]) ) ) {
+			$class = di_service_icon_class( 'custom' === $icon ? ( $row['icon_custom'] ?? '' ) : $icon );
+			return $class ? '<span class="service-v2-icon" aria-hidden="true"><i class="' . esc_attr($class) . '"></i></span>' : '';
+		}
 		$icons = array(
 			'visibility' => 'fa-chart-column', 'traffic' => 'fa-users', 'growth' => 'fa-bullseye',
 			'leads' => 'fa-user-check', 'reporting' => 'fa-file-lines', 'experience' => 'fa-award',
@@ -56,6 +66,17 @@ if ( ! function_exists( 'di_service_v2_icon' ) ) {
 	}
 }
 
+// ACF empty repeaters can return false; never cast that into a phantom row.
+if ( ! function_exists( 'di_service_v2_rows' ) ) {
+	function di_service_v2_rows( $rows ) {
+		return is_array( $rows ) ? array_values( array_filter( $rows, static function ( $row ) {
+			if ( ! is_array( $row ) ) { return false; }
+			$content = array_diff_key( $row, array_flip( array( 'icon', 'rating', 'number' ) ) );
+			return (bool) array_filter( $content );
+		} ) ) : array();
+	}
+}
+$service_v2_seo_rendered = false;
 $service_v2_templates = array(
 	'hero'               => 'hero',
 	'trusted_brands'     => 'trusted-brands',
@@ -80,6 +101,10 @@ $service_v2_templates = array(
 			<?php
 			the_row();
 			$service_v2_layout = get_row_layout();
+			if ( 'final_cta' === $service_v2_layout && ! $service_v2_seo_rendered ) {
+				get_template_part( 'template-parts/services-v2/sections/seo-content' );
+				$service_v2_seo_rendered = true;
+			}
 
 			if ( isset( $service_v2_templates[ $service_v2_layout ] ) ) {
 				get_template_part( 'template-parts/services-v2/sections/' . $service_v2_templates[ $service_v2_layout ] );
@@ -91,4 +116,5 @@ $service_v2_templates = array(
 			<?php esc_html_e( 'Modular Layout V2 is selected, but no page sections have been added yet.', 'di-infotech' ); ?>
 		</div>
 	<?php endif; ?>
+	<?php if ( ! $service_v2_seo_rendered ) { get_template_part( 'template-parts/services-v2/sections/seo-content' ); } ?>
 </main>
