@@ -1,3 +1,17 @@
+// Owl generates its controls dynamically; label them after every rebuild.
+jQuery(document).on('initialized.owl.carousel refreshed.owl.carousel translated.owl.carousel', '.owl-carousel', function () {
+  const carousel = this;
+  carousel.querySelectorAll('.owl-dot').forEach(function (button, index) {
+    button.setAttribute('aria-label', 'Go to slide ' + (index + 1));
+    button.setAttribute('aria-current', button.classList.contains('active') ? 'true' : 'false');
+  });
+  [['.owl-prev', 'Previous slides'], ['.owl-next', 'Next slides']].forEach(function (entry) {
+    carousel.querySelectorAll(entry[0]).forEach(function (button) {
+      button.removeAttribute('role');
+      button.setAttribute('aria-label', entry[1]);
+    });
+  });
+});
 jQuery(function ($) {
   if (!$.fn.owlCarousel) {
     return;

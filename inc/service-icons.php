@@ -88,7 +88,7 @@ add_filter('acf/load_field/key=field_6aace66671cf3', static function ($field) {
         $layout['max'] = '';
         $keys = array_column($layout['sub_fields'], 'key');
         foreach (di_service_inline_icon_fields() as $child) {
-            if (!in_array($child['key'], $keys, true)) { $layout['sub_fields'][] = $child; }
+            if (!in_array($child['key'], $keys, true)) { $layout['sub_fields'][] = acf_get_valid_field($child); }
         }
     }
     unset($layout);
@@ -123,7 +123,7 @@ add_filter('acf/load_field', static function ($field) {
         if ($field['key'] === $parent) {
             $existing = array_column($field['sub_fields'] ?? array(), 'key');
             foreach ($children as $child) {
-                if (!in_array($child['key'], $existing, true)) { $field['sub_fields'][] = $child; }
+                if (!in_array($child['key'], $existing, true)) { $field['sub_fields'][] = acf_get_valid_field($child); }
             }
         }
     }

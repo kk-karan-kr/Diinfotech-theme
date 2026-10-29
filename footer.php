@@ -62,7 +62,7 @@
         <div class="col-lg-6 col-sm-6">
             <div class="footer_main_link">
                 <div class="footer_heading">
-                    <h4><?php echo esc_html( get_sub_field( 'heading' ) ); ?></h4>
+                    <h2><?php echo esc_html( get_sub_field( 'heading' ) ); ?></h2>
                 </div>
                 <div class="accordion_wrp">
                     <div class="accordion" id="<?php echo esc_attr( $footer_accordion_id ); ?>">
@@ -123,7 +123,7 @@
                                         <?php while ( have_rows( 'footer2', 'option' ) ) : the_row(); ?>
                                         <div class="footer_wrapper">
                                             <div class="footer_heading">
-                                                <h4>	<?php the_sub_field( 'heading' ); ?></h4>
+                                                <h2>	<?php the_sub_field( 'heading' ); ?></h2>
                                             </div>
                                             <div class="footer_links">
                                                 <ul>
@@ -154,7 +154,7 @@
                                             <?php while ( have_rows( 'our_ventures', 'option' ) ) : the_row(); ?>
                                         <div class="footer_wrapper">
                                             <div class="footer_heading">
-                                                <h4><?php the_sub_field( 'heading' ); ?></h4>
+                                                <h2><?php the_sub_field( 'heading' ); ?></h2>
                                             </div>
                                             <div class="footer_links">
                                                 <ul>
@@ -177,24 +177,24 @@
                                         <?php endif; ?>
                                         <div class="footer_wrapper">
                                             <div class="footer_heading">
-                                                <h4>Socialize with Us
-                                                </h4>
+                                                <h2>Socialize with Us
+                                                </h2>
                                             </div>
                                             <div class="social_media_icon">
                                                 <ul>
                                                     <li>
-                                                        <a href="https://www.facebook.com/diinfotech" target="_blank">
+                                                        <a href="https://www.facebook.com/diinfotech" target="_blank" rel="noopener noreferrer" aria-label="DI Infotech on Facebook">
                                                             <i class="fa-brands fa-square-facebook"></i>
                                                         </a>
                                                     </li>
                                                    
                                                     <li>
-                                                        <a href="https://www.linkedin.com/company/diinfotech" target="_blank">
+                                                        <a href="https://www.linkedin.com/company/diinfotech" target="_blank" rel="noopener noreferrer" aria-label="DI Infotech on LinkedIn">
                                                             <i class="fa-brands fa-linkedin"></i>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://www.instagram.com/diinfotech/" target="_blank">
+                                                        <a href="https://www.instagram.com/diinfotech/" target="_blank" rel="noopener noreferrer" aria-label="DI Infotech on Instagram">
                                                             <i class="fa-brands fa-square-instagram"></i>
                                                         </a>
                                                     </li>
@@ -303,18 +303,18 @@
     <?php $di_contact_hero_class = ! empty( $GLOBALS['di_theme_hero'] ) ? ' di-hero-contact' : ''; ?>
     <div class="whatsapp-button call_fix-button<?php echo esc_attr( $di_contact_hero_class ); ?>">
                 <a href="<?php echo get_home_url(); ?>/contact">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fix-call.png" alt="fix" width="512" height="512" loading="lazy" decoding="async">
+<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fix-call-112.webp" alt="Contact DI Infotech" width="112" height="112" loading="lazy" decoding="async">
                 </a>
               </div>
     <div class="call-button<?php echo esc_attr( $di_contact_hero_class ); ?>">
                 <a href="tel:+919810052141">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/call.png" alt="call" width="512" height="512" loading="lazy" decoding="async">
+<img src="<?php echo get_template_directory_uri(); ?>/assets/img/call-112.webp" alt="Call DI Infotech" width="112" height="112" loading="lazy" decoding="async">
                 </a>
               </div>
 
             <div class="whatsapp-button<?php echo esc_attr( $di_contact_hero_class ); ?>">
               <a href="https://api.whatsapp.com/send?l=en&amp;phone=+919810052141&amp;text=Hi..," target="_blank">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/whatsapp.png" alt="whatsapp" width="512" height="512" loading="lazy" decoding="async">
+<img src="<?php echo get_template_directory_uri(); ?>/assets/img/whatsapp-112.webp" alt="Chat with DI Infotech on WhatsApp" width="112" height="112" loading="lazy" decoding="async">
               </a>
             </div>
 </div><!-- #page -->

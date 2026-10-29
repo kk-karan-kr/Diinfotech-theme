@@ -118,7 +118,16 @@ if ( ! $eyebrow && ! $heading && ! $highlighted_heading && ! $description && ! $
 						<div class="service-v2-hero__cf7">
 							<?php $submit_text = (string) get_sub_field( 'form_submit_text' );
 $submit_filter = static function ( $tag ) use ( $submit_text ) {
-    if ( 'submit' === $tag->type && '' !== trim( $submit_text ) ) { $tag->values = array( $submit_text ); $tag->raw_values = array( $submit_text ); }
+    $type = is_array( $tag ) ? ( $tag['type'] ?? '' ) : ( $tag->type ?? '' );
+    if ( 'submit' === $type && '' !== trim( $submit_text ) ) {
+        if ( is_array( $tag ) ) {
+            $tag['values'] = array( $submit_text );
+            $tag['raw_values'] = array( $submit_text );
+        } else {
+            $tag->values = array( $submit_text );
+            $tag->raw_values = array( $submit_text );
+        }
+    }
     return $tag;
 };
 add_filter( 'wpcf7_form_tag', $submit_filter );

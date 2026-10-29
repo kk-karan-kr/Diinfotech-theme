@@ -249,7 +249,7 @@
 
     <div id="page" class="site">
         <a class="skip-link screen-reader-text"
-            href="#primary"><?php esc_html_e('Skip to content', 'di-infotech'); ?></a>
+            href="<?php echo ( is_singular('services') || is_page_template('single-our_servives.php') ) && function_exists('get_field') && 'modular_v2' === get_field('service_layout_mode') ? '#main-content' : '#primary'; ?>"><?php esc_html_e('Skip to content', 'di-infotech'); ?></a>
 
 
         <!-- cursor section start  -->

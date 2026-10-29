@@ -80,3 +80,12 @@ function di_infotech_hero_geometry() {
 	echo '<style id="di-hero-geometry">.di-hero-slider__slides{position:relative;height:clamp(440px,36.45vw,560px)}.di-hero-slider__slide{position:absolute;inset:0}.di-hero-slider__slide:not(.is-active){visibility:hidden}@media(max-width:900px){.di-hero-slider__slides{height:clamp(440px,65vw,520px)}}@media(max-width:640px){.di-hero-slider__slides{height:480px}}@media(max-width:380px){.di-hero-slider__slides{height:580px}}</style>';
 }
 add_action( 'wp_head', 'di_infotech_hero_geometry', 1 );
+
+/** Discover the two primary service fonts before the combined stylesheet arrives. */
+function di_infotech_service_font_preloads() {
+	if ( ! ( is_singular('services') || is_page_template('single-our_servives.php') ) ) { return; }
+	foreach (array('NeueMontreal-Regular.woff', 'NeueMontreal-Bold.woff') as $font) {
+		printf('<link rel="preload" href="%s" as="font" type="font/woff" crossorigin>', esc_url(get_template_directory_uri().'/assets/fonts/'.$font));
+	}
+}
+add_action('wp_head', 'di_infotech_service_font_preloads', 2);

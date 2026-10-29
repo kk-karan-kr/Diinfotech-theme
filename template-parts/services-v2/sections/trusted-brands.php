@@ -28,7 +28,7 @@ if ( ! $eyebrow && ! $heading && ! $description && ! $logos ) {
 						<div class="brand_img">
 							<?php if ( ! empty( $logo['brand_link']['url'] ) ) : ?><a href="<?php echo esc_url( $logo['brand_link']['url'] ); ?>" target="<?php echo esc_attr( $logo['brand_link']['target'] ?: '_self' ); ?>" aria-label="<?php echo esc_attr( $logo['brand_name'] ?? '' ); ?>"><?php endif; ?>
 							<?php if ( ! empty( $logo['brand_logo'] ) ) : ?>
-								<?php echo wp_get_attachment_image( (int) $logo['brand_logo'], 'medium', false, array( 'loading' => 'lazy', 'alt' => $logo['brand_name'] ?? '' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+								<?php echo wp_get_attachment_image( (int) $logo['brand_logo'], 'medium', false, array( 'sizes' => '(max-width: 767px) 40vw, 160px', 'loading' => 'lazy', 'alt' => $logo['brand_name'] ?? '' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 							<?php elseif ( ! empty( $logo['brand_name'] ) ) : ?>
 								<span class="preview-brand-name service-v2-logo-card__name"><?php echo esc_html( $logo['brand_name'] ); ?></span>
 							<?php endif; ?>

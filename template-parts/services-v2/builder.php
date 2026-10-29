@@ -95,7 +95,7 @@ $service_v2_templates = array(
 );
 ?>
 
-<main class="service-v2-page seo-delhi-page" id="main-content">
+<main class="service-v2-page seo-delhi-page" id="main-content" tabindex="-1">
 	<?php if ( function_exists( 'have_rows' ) && have_rows( 'service_sections' ) ) : ?>
 		<?php while ( have_rows( 'service_sections' ) ) : ?>
 			<?php
