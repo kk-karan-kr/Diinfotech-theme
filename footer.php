@@ -84,7 +84,38 @@
                                         data-bs-parent="#<?php echo esc_attr( $footer_accordion_id ); ?>">
                                         <div class="footer_links">
                                             <ul>
-                                                <?php if ( have_rows( 'submenus' ) ) : ?>
+                                                <?php
+                                                $footer_menu_name = strtolower( trim( (string) get_sub_field( 'manu_name' ) ) );
+                                                $footer_service_links = array();
+                                                if ( 'digital marketing' === $footer_menu_name ) {
+                                                    $footer_service_links = array(
+                                                        array( 'title' => 'Social Media Marketing', 'url' => home_url( '/services/social-media-marketing-agency-in-delhi/' ) ),
+                                                        array( 'title' => 'Performance Marketing', 'url' => home_url( '/services/performance-marketing-agency/' ) ),
+                                                        array( 'title' => 'Influencer Marketing', 'url' => 'https://influencermarketing.solutions/', 'target' => '_blank' ),
+                                                    );
+                                                } elseif ( 'web development' === $footer_menu_name ) {
+                                                    $footer_service_links = array(
+                                                        array( 'title' => 'Website Development', 'url' => home_url( '/services/website-development-company-in-india/' ) ),
+                                                        array( 'title' => 'WordPress Development', 'url' => home_url( '/services/wordpress-development-company-in-india/' ) ),
+                                                        array( 'title' => 'Shopify Development', 'url' => home_url( '/services/shopify-development-company-in-india/' ) ),
+                                                    );
+                                                } elseif ( 'seo' === $footer_menu_name ) {
+                                                    $footer_service_links = array(
+                                                        array( 'title' => 'SEO Services', 'url' => home_url( '/services/seo-company-in-india/' ) ),
+                                                        array( 'title' => 'AI SEO Services', 'url' => home_url( '/services/generative-engine-optimization/' ) ),
+                                                    );
+                                                }
+                                                ?>
+                                                <?php if ( $footer_service_links ) : ?>
+                                                    <?php foreach ( $footer_service_links as $footer_service_link ) : ?>
+                                                        <?php $footer_link_target = isset( $footer_service_link['target'] ) ? $footer_service_link['target'] : '_self'; ?>
+                                                        <li>
+                                                            <a href="<?php echo esc_url( $footer_service_link['url'] ); ?>" target="<?php echo esc_attr( $footer_link_target ); ?>"<?php echo '_blank' === $footer_link_target ? ' rel="noopener noreferrer"' : ''; ?>>
+                                                                <?php echo esc_html( $footer_service_link['title'] ); ?>
+                                                            </a>
+                                                        </li>
+                                                    <?php endforeach; ?>
+                                                <?php elseif ( have_rows( 'submenus' ) ) : ?>
                                                     <?php while ( have_rows( 'submenus' ) ) : the_row(); ?>
                                                         <li>
                                                             <?php $menu_url = get_sub_field( 'menu_url' ); ?>
@@ -114,6 +145,7 @@
         </div>
     <?php endwhile; ?>
 <?php endif; ?>
+
 
 
 

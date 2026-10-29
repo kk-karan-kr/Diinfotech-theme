@@ -587,6 +587,14 @@
 .service-v2-process img { max-width: 100%; height: auto; }
 .service-v2-cta-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 .service-v2-rating { color: #896400; }
+/* Avoid late swaps for secondary weights on slow connections. Primary fonts remain preloaded. */
+@font-face { font-family: 'NeueMontreal-Medium'; src: url('../fonts/NeueMontreal-Medium.woff') format('woff'); font-display: optional; }
+@font-face { font-family: 'NeueMontreal-Light'; src: url('../fonts/NeueMontreal-Light.woff') format('woff'); font-display: optional; }
+.seo-delhi-page .service-v2-brands .brand_img img { aspect-ratio: auto; object-fit: contain; }
+.seo-delhi-page :is(.nav-link,.accordion-button,.seo-delhi-button) { transition-property: transform, opacity; }
+.seo-delhi-page .owl-dot { min-width: 28px; min-height: 28px; margin: 4px; }
+.seo-delhi-page .service-v2-hero__form :is(small,.service-v2-hero__form-kicker) { color: #526079; }
+footer .social_media_icon ul li a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; transition: transform .2s ease; }
 /* Maintain readable contrast on the service template's light surfaces. */
 .seo-delhi-page .service-v2-kicker { color: #2454bf; }
 .seo-delhi-page .service-v2-services .advertising-content-wrp :is(.grey-text, .grey-text p) { color: #596373; }

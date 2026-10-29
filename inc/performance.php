@@ -74,6 +74,15 @@ function di_infotech_form_script_strategies() {
 }
 add_action( 'wp_enqueue_scripts', 'di_infotech_form_script_strategies', 100 );
 
+/** Defer the complete jQuery dependency chain on modular services, not individual dependants. */
+function di_infotech_service_script_strategies() {
+	if ( is_admin() || ! ( is_singular('services') || is_page_template('single-our_servives.php') ) || ! function_exists('get_field') || 'modular_v2' !== get_field('service_layout_mode') ) { return; }
+	foreach (array('jquery-core', 'jquery-migrate', 'wp-hooks', 'wp-i18n', 'wp-polyfill') as $handle) {
+		wp_script_add_data($handle, 'strategy', 'defer');
+	}
+}
+add_action('wp_enqueue_scripts', 'di_infotech_service_script_strategies', 110);
+
 /** Preserve hero geometry even when an optimizer defers external stylesheets. */
 function di_infotech_hero_geometry() {
 	if ( empty( $GLOBALS['di_theme_hero'] ) ) { return; }

@@ -12,6 +12,7 @@ if ( ! defined( '_S_VERSION' ) ) {
 }
 
 require_once get_template_directory() . '/inc/performance.php';
+require_once get_template_directory() . '/inc/home-content.php';
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.

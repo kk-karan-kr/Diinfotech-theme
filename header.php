@@ -83,156 +83,156 @@
     </script>
     <!-- End deferred marketing tags -->
 
-    <?php if ( is_front_page() && ! defined( 'AIOSEO_VERSION' ) ) : ?>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                    "@type": "Question",
-                    "name": "What should I look for when choosing a digital marketing agency near me?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "When choosing a digital marketing agency near you, check if they understand your industry, offer a full range of digital marketing services, and have good reviews. It's also important that they provide clear communication and regular reporting. A digital marketing company in Delhi NCR with local knowledge can give you an advantage in targeting the right audience."
+    <?php if (is_front_page() && ! defined('AIOSEO_VERSION')) : ?>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [{
+                        "@type": "Question",
+                        "name": "What should I look for when choosing a digital marketing agency near me?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "When choosing a digital marketing agency near you, check if they understand your industry, offer a full range of digital marketing services, and have good reviews. It's also important that they provide clear communication and regular reporting. A digital marketing company in Delhi NCR with local knowledge can give you an advantage in targeting the right audience."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What business problems can digital marketing services help solve?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Digital marketing services can help grow your brand, attract more customers, and boost your online presence through SEO, social media marketing, PPC, or email marketing. These services help drive traffic, increase sales, and improve customer engagement."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why should I hire a local digital marketing agency in Delhi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Working with a digital marketing agency in Delhi gives you better access to their team, faster support, and a thorough understanding of the local market. Local agencies know how to run effective local SEO campaigns that reach area-specific customers more effectively."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does it take to see results from digital marketing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SEO services typically take around 3-6 months, while performance marketing (PPC) can show results almost immediately. Social media marketing, email marketing and content marketing usually deliver noticeable growth in a few months."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you offer website development along with marketing services?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes! As a complete digital marketing agency in Delhi NCR, we offer website development including WordPress development, Shopify development, and complete e-commerce development, with great UI/UX design to increase engagement and conversions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes you a top digital marketing agency in Delhi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer end-to-end digital marketing services in Delhi including SEO, PPC, SMO, and more, all tailored to your business needs. With over 20 years of experience, we're proud to be known as a top digital marketing agency in Delhi."
+                        }
                     }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What business problems can digital marketing services help solve?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Digital marketing services can help grow your brand, attract more customers, and boost your online presence through SEO, social media marketing, PPC, or email marketing. These services help drive traffic, increase sales, and improve customer engagement."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why should I hire a local digital marketing agency in Delhi?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Working with a digital marketing agency in Delhi gives you better access to their team, faster support, and a thorough understanding of the local market. Local agencies know how to run effective local SEO campaigns that reach area-specific customers more effectively."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How long does it take to see results from digital marketing?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "SEO services typically take around 3-6 months, while performance marketing (PPC) can show results almost immediately. Social media marketing, email marketing and content marketing usually deliver noticeable growth in a few months."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Do you offer website development along with marketing services?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes! As a complete digital marketing agency in Delhi NCR, we offer website development including WordPress development, Shopify development, and complete e-commerce development, with great UI/UX design to increase engagement and conversions."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What makes you a top digital marketing agency in Delhi?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "We offer end-to-end digital marketing services in Delhi including SEO, PPC, SMO, and more, all tailored to your business needs. With over 20 years of experience, we're proud to be known as a top digital marketing agency in Delhi."
-                    }
-                }
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "DI Infotech Leaders Pvt. Ltd.",
-            "url": "https://diinfotech.com",
-            "logo": "https://diinfotech.com/wp-content/themes/di-infotech/assets/img/logo.svg",
-            "image": "https://diinfotech.com/wp-content/themes/di-infotech/assets/img/logo.svg",
-            "description": "DI Infotech is a trusted digital marketing agency in Delhi offering SEO, social media marketing, PPC & web solutions to help businesses grow online.",
-            "telephone": "+91-9810052141",
-            "email": "info@diinfotech.com",
-            "foundingDate": "2005",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "301, G-27, Pankaj Tower - IV, Commercial Complex, Vikaspuri",
-                "addressLocality": "New Delhi",
-                "addressRegion": "Delhi",
-                "postalCode": "110018",
-                "addressCountry": "IN"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 28.6406,
-                "longitude": 77.0709
-            },
-            "areaServed": ["Delhi", "Delhi NCR", "India"],
-            "sameAs": [
-                "https://www.facebook.com/diinfotech",
-                "https://www.linkedin.com/company/diinfotech",
-                "https://www.instagram.com/diinfotech/"
-            ],
-            "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                "opens": "09:00",
-                "closes": "18:00"
+                ]
             }
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "DI Infotech Leaders Pvt. Ltd.",
-            "url": "https://diinfotech.com",
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "87",
-                "bestRating": "5",
-                "worstRating": "1"
-            },
-            "review": [{
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Mahesh Gupta"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "DI Infotech transformed our beauty brand with expert Social Media Marketing and Performance Ads. Their campaigns skyrocketed our brand visibility and engagement."
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "DI Infotech Leaders Pvt. Ltd.",
+                "url": "https://diinfotech.com",
+                "logo": "https://diinfotech.com/wp-content/themes/di-infotech/assets/img/logo.svg",
+                "image": "https://diinfotech.com/wp-content/themes/di-infotech/assets/img/logo.svg",
+                "description": "DI Infotech is a trusted digital marketing agency in Delhi offering SEO, social media marketing, PPC & web solutions to help businesses grow online.",
+                "telephone": "+91-9810052141",
+                "email": "info@diinfotech.com",
+                "foundingDate": "2005",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "301, G-27, Pankaj Tower - IV, Commercial Complex, Vikaspuri",
+                    "addressLocality": "New Delhi",
+                    "addressRegion": "Delhi",
+                    "postalCode": "110018",
+                    "addressCountry": "IN"
                 },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Naman Prakash"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "Their SEO expertise brought us top rankings, while the newly developed website improved conversions and credibility."
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 28.6406,
+                    "longitude": 77.0709
                 },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Rohit Singh"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "Their Google Ads and Social Media Ad campaigns targeted high-intent buyers, bringing us consistent, high-quality leads."
+                "areaServed": ["Delhi", "Delhi NCR", "India"],
+                "sameAs": [
+                    "https://www.facebook.com/diinfotech",
+                    "https://www.linkedin.com/company/diinfotech",
+                    "https://www.instagram.com/diinfotech/"
+                ],
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "opens": "09:00",
+                    "closes": "18:00"
                 }
-            ]
-        }
-    </script>
+            }
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "DI Infotech Leaders Pvt. Ltd.",
+                "url": "https://diinfotech.com",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "87",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                },
+                "review": [{
+                        "@type": "Review",
+                        "author": {
+                            "@type": "Person",
+                            "name": "Mahesh Gupta"
+                        },
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5",
+                            "bestRating": "5"
+                        },
+                        "reviewBody": "DI Infotech transformed our beauty brand with expert Social Media Marketing and Performance Ads. Their campaigns skyrocketed our brand visibility and engagement."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": {
+                            "@type": "Person",
+                            "name": "Naman Prakash"
+                        },
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5",
+                            "bestRating": "5"
+                        },
+                        "reviewBody": "Their SEO expertise brought us top rankings, while the newly developed website improved conversions and credibility."
+                    },
+                    {
+                        "@type": "Review",
+                        "author": {
+                            "@type": "Person",
+                            "name": "Rohit Singh"
+                        },
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5",
+                            "bestRating": "5"
+                        },
+                        "reviewBody": "Their Google Ads and Social Media Ad campaigns targeted high-intent buyers, bringing us consistent, high-quality leads."
+                    }
+                ]
+            }
+        </script>
     <?php endif; ?>
 </head>
 
@@ -249,7 +249,7 @@
 
     <div id="page" class="site">
         <a class="skip-link screen-reader-text"
-            href="<?php echo ( is_singular('services') || is_page_template('single-our_servives.php') ) && function_exists('get_field') && 'modular_v2' === get_field('service_layout_mode') ? '#main-content' : '#primary'; ?>"><?php esc_html_e('Skip to content', 'di-infotech'); ?></a>
+            href="<?php echo (is_singular('services') || is_page_template('single-our_servives.php')) && function_exists('get_field') && 'modular_v2' === get_field('service_layout_mode') ? '#main-content' : '#primary'; ?>"><?php esc_html_e('Skip to content', 'di-infotech'); ?></a>
 
 
         <!-- cursor section start  -->
@@ -366,8 +366,10 @@
                                                                                     aria-selected="true">Social Media
                                                                                     Marketing
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
                                                                                 <button class="nav-link"
@@ -378,9 +380,27 @@
                                                                                     aria-controls="v-pills-Per"
                                                                                     aria-selected="false">Performance
                                                                                     Marketing <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div></button>
+                                                                                <button class="nav-link"
+                                                                                    id="v-pills-Influencer-tab"
+                                                                                    data-bs-toggle="pill"
+                                                                                    data-bs-target="#v-pills-Influencer"
+                                                                                    type="button" role="tab"
+                                                                                    aria-controls="v-pills-Influencer"
+                                                                                    aria-selected="false">Influencer
+                                                                                    Marketing
+                                                                                    <div class="yellow_arrow">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
+                                                                                    </div>
+                                                                                </button>
+                                                                                <!-- Email marketing and brand management temporarily disabled.
                                                                                 <button class="nav-link"
                                                                                     id="v-pills-Media-tab"
                                                                                     data-bs-toggle="pill"
@@ -389,8 +409,10 @@
                                                                                     aria-controls="v-pills-Media"
                                                                                     aria-selected="false">Email
                                                                                     Marketing <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div></button>
                                                                                 <button class="nav-link"
                                                                                     id="v-pills-Brand-tab"
@@ -401,9 +423,12 @@
                                                                                     aria-selected="false">Brand
                                                                                     Management <div
                                                                                         class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div></button>
+                                                                                -->
 
                                                                             </div>
                                                                             <div class="tab-content"
@@ -469,6 +494,32 @@
 
                                                                                 </div>
                                                                                 <div class="tab-pane fade"
+                                                                                    id="v-pills-Influencer"
+                                                                                    role="tabpanel"
+                                                                                    aria-labelledby="v-pills-Influencer-tab">
+                                                                                    <div class="about_dropmenu">
+                                                                                        <p>Drive more sales and expand
+                                                                                            your reach with
+                                                                                            result-driven influencer
+                                                                                            marketing. We connect your
+                                                                                            brand with trusted voices
+                                                                                            in your industry, ensuring
+                                                                                            real engagement from
+                                                                                            potential buyers.
+                                                                                        </p>
+
+                                                                                        <div class="main_btn ">
+                                                                                            <a class="bg_yellow"
+                                                                                                href="https://influencermarketing.solutions/"
+                                                                                                target="_blank"
+                                                                                                rel="noopener noreferrer">Discover
+                                                                                                More <i
+                                                                                                    class="fa-solid fa-arrow-right"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Email marketing and brand management temporarily disabled.
+                                                                                <div class="tab-pane fade"
                                                                                     id="v-pills-Media" role="tabpanel"
                                                                                     aria-labelledby="v-pills-Media-tab">
 
@@ -528,6 +579,7 @@
                                                                                     </div>
 
                                                                                 </div>
+                                                                                -->
                                                                             </div>
                                                                         </div>
 
@@ -540,8 +592,12 @@
                                                                                             href="<?php echo get_home_url(); ?>/services/social-media-marketing-agency-in-delhi/">Social
                                                                                             Media Marketing
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
@@ -550,33 +606,65 @@
                                                                                             href="<?php echo get_home_url(); ?>/services/performance-marketing-agency/">Performance
                                                                                             Marketing
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
 
 
+                                                                                    <li>
+                                                                                        <a target="_blank"
+                                                                                            rel="noopener noreferrer"
+                                                                                            href="https://influencermarketing.solutions/">
+                                                                                            Influencer Marketing
+                                                                                            <div class="yellow_arrow">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </li>
+
+                                                                                    <!-- Email marketing and brand management temporarily disabled.
                                                                                     <li>
                                                                                         <a
                                                                                             href="<?php echo get_home_url(); ?>/services/email-marketing-service/">Email
                                                                                             Marketing
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    -->
+                                                                                    <!-- Brand management temporarily disabled.
                                                                                     <li>
                                                                                         <a
                                                                                             href="<?php echo get_home_url(); ?>/services/strategic-brand-management/">Brand
                                                                                             Managment
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    -->
                                                                                 </ul>
                                                                             </div>
 
@@ -631,10 +719,43 @@
                                                                                     aria-selected="true">Website
                                                                                     Development
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
+                                                                                <button class="nav-link"
+                                                                                    id="v-pills-wordpress_development-tab"
+                                                                                    data-bs-toggle="pill"
+                                                                                    data-bs-target="#v-pills-wordpress_development"
+                                                                                    type="button" role="tab"
+                                                                                    aria-controls="v-pills-wordpress_development"
+                                                                                    aria-selected="false">WordPress
+                                                                                    Development
+                                                                                    <div class="yellow_arrow">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
+                                                                                    </div>
+                                                                                </button>
+                                                                                <button class="nav-link"
+                                                                                    id="v-pills-shopify_development-tab"
+                                                                                    data-bs-toggle="pill"
+                                                                                    data-bs-target="#v-pills-shopify_development"
+                                                                                    type="button" role="tab"
+                                                                                    aria-controls="v-pills-shopify_development"
+                                                                                    aria-selected="false">Shopify
+                                                                                    Development
+                                                                                    <div class="yellow_arrow">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
+                                                                                    </div>
+                                                                                </button>
+                                                                                <!-- Ecommerce and UI/UX design temporarily disabled.
                                                                                 <button class="nav-link"
                                                                                     id="v-pills-web_devlopment-tab"
                                                                                     data-bs-toggle="pill"
@@ -644,8 +765,10 @@
                                                                                     aria-selected="false">Ecommerce
                                                                                     Website
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
                                                                                 <button class="nav-link"
@@ -656,9 +779,12 @@
                                                                                     aria-controls="v-pills-ui_ux_design"
                                                                                     aria-selected="false">UI/UX
                                                                                     Designing <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div></button>
+                                                                                -->
 
                                                                             </div>
                                                                             <div class="tab-content"
@@ -692,6 +818,47 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="tab-pane fade"
+                                                                                    id="v-pills-wordpress_development"
+                                                                                    role="tabpanel"
+                                                                                    aria-labelledby="v-pills-wordpress_development-tab">
+                                                                                    <div class="about_dropmenu">
+                                                                                        <p>Build a fast, flexible
+                                                                                            WordPress website tailored
+                                                                                            to your business goals, with
+                                                                                            responsive design and
+                                                                                            straightforward content
+                                                                                            management.
+                                                                                        </p>
+                                                                                        <div class="main_btn ">
+                                                                                            <a class="bg_yellow"
+                                                                                                href="<?php echo get_home_url(); ?>/services/wordpress-development-company-in-india/">Discover
+                                                                                                More <i
+                                                                                                    class="fa-solid fa-arrow-right"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="tab-pane fade"
+                                                                                    id="v-pills-shopify_development"
+                                                                                    role="tabpanel"
+                                                                                    aria-labelledby="v-pills-shopify_development-tab">
+                                                                                    <div class="about_dropmenu">
+                                                                                        <p>Launch and grow your online
+                                                                                            store with a Shopify
+                                                                                            experience designed for
+                                                                                            smooth shopping, secure
+                                                                                            checkout, and easier store
+                                                                                            management.
+                                                                                        </p>
+                                                                                        <div class="main_btn ">
+                                                                                            <a class="bg_yellow"
+                                                                                                href="<?php echo get_home_url(); ?>/services/shopify-development-company-in-india/">Discover
+                                                                                                More <i
+                                                                                                    class="fa-solid fa-arrow-right"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Ecommerce and UI/UX design temporarily disabled.
+                                                                                <div class="tab-pane fade"
                                                                                     id="v-pills-web_devlopment"
                                                                                     role="tabpanel"
                                                                                     aria-labelledby="v-pills-web_devlopment-tab">
@@ -722,6 +889,7 @@
                                                                                     </div>
 
                                                                                 </div>
+
                                                                                 <div class="tab-pane fade"
                                                                                     id="v-pills-ui_ux_design"
                                                                                     role="tabpanel"
@@ -752,6 +920,7 @@
                                                                                     </div>
 
                                                                                 </div>
+                                                                                -->
 
                                                                             </div>
                                                                         </div>
@@ -765,21 +934,59 @@
                                                                                             href="<?php echo get_home_url(); ?>/services/website-development-company-in-india/">Website
                                                                                             Development
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
                                                                                     <li>
                                                                                         <a
-                                                                                            href="<?php echo get_home_url(); ?>/services/ecommerce-development-company-in-india/">Ecommerce
-                                                                                            Website
+                                                                                            href="<?php echo get_home_url(); ?>/services/wordpress-development-company-in-india/">
+                                                                                            WordPress Development
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    <li>
+                                                                                        <a
+                                                                                            href="<?php echo get_home_url(); ?>/services/shopify-development-company-in-india/">
+                                                                                            Shopify Development
+                                                                                            <div class="yellow_arrow">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <!-- Ecommerce Website temporarily disabled.
+                                                                                    <li>
+                                                                                        <a
+                                                                                            href="<?php echo get_home_url(); ?>/services/ecommerce-development-company-in-india/">Ecommerce
+                                                                                            Website
+                                                                                            <div class="yellow_arrow">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    -->
 
 
                                                                                 </ul>
@@ -830,12 +1037,31 @@
                                                                                     data-bs-target="#v-pills-Website_seo"
                                                                                     type="button" role="tab"
                                                                                     aria-controls="v-pills-Website_seo"
-                                                                                    aria-selected="true">Website SEO
+                                                                                    aria-selected="true">SEO
+                                                                                    Services
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
+                                                                                <button class="nav-link"
+                                                                                    id="v-pills-AI_SEO-tab"
+                                                                                    data-bs-toggle="pill"
+                                                                                    data-bs-target="#v-pills-AI_SEO"
+                                                                                    type="button" role="tab"
+                                                                                    aria-controls="v-pills-AI_SEO"
+                                                                                    aria-selected="false">AI SEO
+                                                                                    Services
+                                                                                    <div class="yellow_arrow">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
+                                                                                    </div>
+                                                                                </button>
+                                                                                <!-- Ecommerce SEO and GEO SEO temporarily disabled.
                                                                                 <button class="nav-link"
                                                                                     id="v-pills-ecommerce_seo-tab"
                                                                                     data-bs-toggle="pill"
@@ -844,8 +1070,10 @@
                                                                                     aria-controls="v-pills-ecommerce_seo"
                                                                                     aria-selected="false">Ecommerce SEO
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
                                                                                 <button class="nav-link"
@@ -857,10 +1085,13 @@
                                                                                     aria-selected="false">
                                                                                     Generative Engine Optimization
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
+                                                                                -->
 
 
                                                                             </div>
@@ -895,6 +1126,27 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
+                                                                                <div class="tab-pane fade"
+                                                                                    id="v-pills-AI_SEO"
+                                                                                    role="tabpanel"
+                                                                                    aria-labelledby="v-pills-AI_SEO-tab">
+                                                                                    <div class="about_dropmenu">
+                                                                                        <p>Improve your visibility in
+                                                                                            AI-powered search results
+                                                                                            with strategies focused on
+                                                                                            content, website structure,
+                                                                                            and search authority.
+                                                                                        </p>
+
+                                                                                        <div class="main_btn ">
+                                                                                            <a class="bg_yellow"
+                                                                                                href="<?php echo get_home_url(); ?>/services/generative-engine-optimization/">Discover
+                                                                                                More <i
+                                                                                                    class="fa-solid fa-arrow-right"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Ecommerce SEO and GEO SEO temporarily disabled.
                                                                                 <div class="tab-pane fade"
                                                                                     id="v-pills-ecommerce_seo"
                                                                                     role="tabpanel"
@@ -950,6 +1202,7 @@
                                                                                     </div>
 
                                                                                 </div>
+                                                                                -->
 
 
                                                                             </div>
@@ -960,34 +1213,64 @@
                                                                                 <ul>
                                                                                     <li>
                                                                                         <a
-                                                                                            href="<?php echo get_home_url(); ?>/services/ecommerce-seo-marketing/">
-                                                                                            Website SEO
+                                                                                            href="<?php echo get_home_url(); ?>/services/seo-company-in-india/">
+                                                                                            SEO Services
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    <li>
+                                                                                        <a
+                                                                                            href="<?php echo get_home_url(); ?>/services/generative-engine-optimization/">
+                                                                                            AI SEO Services
+                                                                                            <div class="yellow_arrow">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <!-- Ecommerce SEO and GEO SEO temporarily disabled.
                                                                                     <li>
                                                                                         <a
                                                                                             href="<?php echo get_home_url(); ?>/services/ecommerce-development-company-in-india/">Ecommerce
                                                                                             SEO
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    -->
+                                                                                    <!-- GEO SEO temporarily disabled.
                                                                                     <li>
                                                                                         <a
                                                                                             href="<?php echo get_home_url(); ?>/services/generative-engine-optimization/">Generative
                                                                                             Engine Optimization
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
+                                                                                    -->
 
 
                                                                                 </ul>
@@ -1065,8 +1348,10 @@
                                                                                     aria-selected="false">DI Infotech
                                                                                     Courses
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
                                                                                 <button class="nav-link"
@@ -1078,8 +1363,10 @@
                                                                                     aria-selected="false">Pratibhashali
                                                                                     Initiative
                                                                                     <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                            alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                            alt="Diinfotech" width="150"
+                                                                                            height="149" loading="lazy"
+                                                                                            decoding="async">
                                                                                     </div>
                                                                                 </button>
                                                                             </div>
@@ -1206,8 +1493,12 @@
                                                                                             href="https://diinfotech.com/courses/">DI
                                                                                             Infotech Courses
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>
@@ -1216,8 +1507,12 @@
                                                                                             href="https://pratibhashali.org/">Pratibhashali
                                                                                             Initiative
                                                                                             <div class="yellow_arrow">
-<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
-                                                                                                    alt="Diinfotech" width="150" height="149" loading="lazy" decoding="async">
+                                                                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow_arrow.png"
+                                                                                                    alt="Diinfotech"
+                                                                                                    width="150"
+                                                                                                    height="149"
+                                                                                                    loading="lazy"
+                                                                                                    decoding="async">
                                                                                             </div>
                                                                                         </a>
                                                                                     </li>

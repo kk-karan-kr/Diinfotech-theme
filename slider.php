@@ -6,99 +6,61 @@
  * @package DI_Infotech
  */
 
-$di_infotech_slider_images = get_template_directory_uri() . '/assets/img/slider/';
+$di_infotech_slider_defaults = di_infotech_home_slider_defaults();
+$di_infotech_slider_content  = function_exists( 'get_field' ) ? get_field( 'main_hero_slider', 'option' ) : array();
+$di_infotech_slider_content  = is_array( $di_infotech_slider_content ) ? $di_infotech_slider_content : array();
+$di_infotech_slider_page_title = ! empty( $di_infotech_slider_content['page_title'] ) ? $di_infotech_slider_content['page_title'] : $di_infotech_slider_defaults['page_title'];
+$di_infotech_slider_aria_label = ! empty( $di_infotech_slider_content['aria_label'] ) ? $di_infotech_slider_content['aria_label'] : $di_infotech_slider_defaults['aria_label'];
+$di_infotech_slider_autoplay   = ! empty( $di_infotech_slider_content['autoplay'] ) ? absint( $di_infotech_slider_content['autoplay'] ) : $di_infotech_slider_defaults['autoplay'];
+$di_infotech_slides            = array();
 
-$di_infotech_slides = array(
-    array(
-        'image'          => $di_infotech_slider_images . 'lead-orbit-desktop.jpeg',
-        'mobile_image'   => $di_infotech_slider_images . 'lead-orbit-mobile.png',
-        'mobile_width'   => 1129,
-        'mobile_height'  => 1393,
-        'mobile_art'     => true,
-        'width'          => 1800,
-        'height'         => 656,
-        'title'          => 'Grow Faster With<br>Lead Orbit',
-        'accent'         => 'Growth Strategy Call',
-        'description'    => 'Identify what is holding your business back and build the right digital plan before spending more on marketing.',
-        'primary_text'   => 'Explore Lead Orbit',
-        'primary_url'    => home_url('/lead-orbit-detailed/'),
-        'secondary_text' => 'Contact Us',
-        'secondary_url'  => home_url('/contact/'),
-    ),
-    array(
-        'image'          => $di_infotech_slider_images . 'web-development-desktop.jpeg',
-        'mobile_image'   => $di_infotech_slider_images . 'web-development-mobile.png',
-        'mobile_width'   => 1213,
-        'mobile_height'  => 1297,
-        'mobile_art'     => true,
-        'mobile_cutout'  => true,
-        'width'          => 1800,
-        'height'         => 656,
-        'title'          => 'Build Websites That<br>Convert Visitors',
-        'accent'         => 'Web Development',
-        'description'    => 'Custom websites, WordPress builds, Shopify stores, AI automation, and AI integrations designed for speed, clarity, and conversion.',
-        'primary_text'   => 'Start a Project',
-        'primary_url'    => home_url('/contact/'),
-        'secondary_text' => 'Explore Web Development',
-        'secondary_url'  => home_url('/services/website-development-company-in-india/'),
-    ),
-    array(
-        'image'          => $di_infotech_slider_images . 'seo-services-desktop.jpeg',
-        'mobile_image'   => $di_infotech_slider_images . 'seo-services-mobile.png',
-        'mobile_width'   => 770,
-        'mobile_height'  => 950,
-        'mobile_art'     => true,
-        'mobile_cutout'  => true,
-        'width'          => 1800,
-        'height'         => 656,
-        'title'          => 'Rank Higher and<br>Win Better Leads',
-        'accent'         => 'SEO Services',
-        'description'    => 'Search-led growth campaigns for businesses that need better visibility, stronger traffic, and qualified enquiries.',
-        'primary_text'   => 'Get SEO Help',
-        'primary_url'    => home_url('/contact/'),
-        'secondary_text' => 'See SEO Services',
-        'secondary_url'  => home_url('/services/seo-company-in-india/'),
-    ),
-    array(
-        'image'          => $di_infotech_slider_images . 'performance-marketing-desktop.jpeg',
-        'mobile_image'   => $di_infotech_slider_images . 'performance-marketing-mobile.png',
-        'mobile_width'   => 770,
-        'mobile_height'  => 950,
-        'mobile_art'     => true,
-        'mobile_cutout'  => true,
-        'width'          => 1800,
-        'height'         => 656,
-        'title'          => 'Scale Smarter With<br>Performance Marketing',
-        'accent'         => 'Performance Marketing',
-        'description'    => 'Turn paid campaigns, conversion data, and clear reporting into measurable and sustainable business growth.',
-        'primary_text'   => 'Talk to an Expert',
-        'primary_url'    => home_url('/contact/'),
-        'secondary_text' => 'Explore Services',
-        'secondary_url'  => home_url('/services/performance-marketing-agency/'),
-    ),
-    array(
-        'image'          => $di_infotech_slider_images . 'social-media-marketing-desktop.png',
-        'mobile_image'   => $di_infotech_slider_images . 'social-media-marketing-mobile.png',
-        'mobile_width'   => 738,
-        'mobile_height'  => 922,
-        'mobile_art'     => true,
-        'mobile_cutout'  => true,
-        'width'          => 2078,
-        'height'         => 757,
-        'title'          => 'Turn Social Reach<br>Into Brand Demand',
-        'accent'         => 'Social Media Marketing',
-        'description'    => 'Build consistent campaigns, stronger content, and audience engagement that supports real business goals.',
-        'primary_text'   => 'Plan My Social Growth',
-        'primary_url'    => home_url('/contact/'),
-        'secondary_text' => 'Explore Social Media',
-        'secondary_url'  => home_url('/services/social-media-marketing-agency-in-delhi/'),
-    ),
-);
+foreach ( $di_infotech_slider_defaults['slides'] as $index => $default_slide ) {
+    $slide_content = isset( $di_infotech_slider_content[ 'slide_' . ( $index + 1 ) ] ) && is_array( $di_infotech_slider_content[ 'slide_' . ( $index + 1 ) ] )
+        ? $di_infotech_slider_content[ 'slide_' . ( $index + 1 ) ]
+        : array();
+    $slide = $default_slide;
+
+    foreach ( array( 'title', 'accent', 'description', 'primary_text', 'primary_url', 'secondary_text', 'secondary_url' ) as $field ) {
+        if ( ! empty( $slide_content[ $field ] ) ) {
+            $slide[ $field ] = $slide_content[ $field ];
+        }
+    }
+
+    $desktop_image = isset( $slide_content['desktop_image'] ) && is_array( $slide_content['desktop_image'] )
+        ? $slide_content['desktop_image']
+        : array();
+    if ( ! empty( $desktop_image['url'] ) ) {
+        $slide['image']     = $desktop_image['url'];
+        $slide['image_alt'] = isset( $desktop_image['alt'] ) ? $desktop_image['alt'] : '';
+        $slide['width']     = ! empty( $desktop_image['width'] ) ? absint( $desktop_image['width'] ) : $slide['width'];
+        $slide['height']    = ! empty( $desktop_image['height'] ) ? absint( $desktop_image['height'] ) : $slide['height'];
+    } else {
+        $slide['image_alt'] = '';
+    }
+
+    $mobile_image = isset( $slide_content['mobile_image'] ) && is_array( $slide_content['mobile_image'] )
+        ? $slide_content['mobile_image']
+        : array();
+    if ( ! empty( $mobile_image['url'] ) ) {
+        $slide['mobile_image']  = $mobile_image['url'];
+        $slide['mobile_width']  = ! empty( $mobile_image['width'] ) ? absint( $mobile_image['width'] ) : $slide['mobile_width'];
+        $slide['mobile_height'] = ! empty( $mobile_image['height'] ) ? absint( $mobile_image['height'] ) : $slide['mobile_height'];
+    }
+
+    foreach ( array( 'mobile_art', 'mobile_cutout' ) as $field ) {
+        if ( array_key_exists( $field, $slide_content ) ) {
+            $slide[ $field ] = (bool) $slide_content[ $field ];
+        }
+    }
+
+    $slide['title'] = nl2br( $slide['title'], false );
+    $di_infotech_slides[] = $slide;
+}
 
 $di_infotech_total_slides = count($di_infotech_slides);
 ?>
 
-<section class="di-hero-slider" aria-label="DI Infotech featured services" data-autoplay="6500">
+<section class="di-hero-slider" aria-label="<?php echo esc_attr( $di_infotech_slider_aria_label ); ?>" data-autoplay="<?php echo esc_attr( $di_infotech_slider_autoplay ); ?>">
     <div class="di-hero-slider__slides">
         <?php foreach ($di_infotech_slides as $index => $slide) : ?>
             <?php
@@ -124,7 +86,7 @@ $di_infotech_total_slides = count($di_infotech_slides);
                     <?php if (di_infotech_slider_srcset($slide['image'])) : ?>
                         <source type="image/webp" sizes="100vw" <?php echo $source_attribute; ?>="<?php echo esc_attr(di_infotech_slider_srcset($slide['image'])); ?>">
                     <?php endif; ?>
-                    <img class="di-hero-slider__image" <?php echo $is_active ? 'src' : 'data-src'; ?>="<?php echo esc_url($slide['image']); ?>" alt=""
+                    <img class="di-hero-slider__image" <?php echo $is_active ? 'src' : 'data-src'; ?>="<?php echo esc_url($slide['image']); ?>" alt="<?php echo esc_attr( $slide['image_alt'] ); ?>"
                         width="<?php echo esc_attr($slide['width']); ?>" height="<?php echo esc_attr($slide['height']); ?>"
                         loading="<?php echo esc_attr($is_active ? 'eager' : 'lazy'); ?>"
                         fetchpriority="<?php echo esc_attr($is_active ? 'high' : 'auto'); ?>" decoding="async" data-no-lazy="1">
@@ -134,7 +96,7 @@ $di_infotech_total_slides = count($di_infotech_slides);
 
                 <div class="di-hero-slider__content">
                     <?php if ($is_active) : ?>
-                        <h1 class="di-hero-slider__page-title">Best Digital Marketing Company in Delhi</h1>
+                        <h1 class="di-hero-slider__page-title"><?php echo esc_html( $di_infotech_slider_page_title ); ?></h1>
                     <?php endif; ?>
 
                     <h2 class="di-hero-slider__title">

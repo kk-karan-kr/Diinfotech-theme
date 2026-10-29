@@ -20,56 +20,58 @@ get_header();
 
 <?php get_template_part('slider'); ?>
 
+<?php
+$di_infotech_lead_orbit_defaults = di_infotech_lead_orbit_defaults();
+$di_infotech_lead_orbit_content  = function_exists( 'get_field' ) ? get_field( 'lead_orbit_model', 'option' ) : array();
+$di_infotech_lead_orbit_content  = di_infotech_home_content_merge(
+	$di_infotech_lead_orbit_defaults,
+	is_array( $di_infotech_lead_orbit_content ) ? $di_infotech_lead_orbit_content : array()
+);
+?>
+
 <!-- Lead Orbit section start  -->
 <section class="lead_orbit_model padding_top_bottom margin_top">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-sm-6" data-aos="fade-right" data-aos-delay=".5s" data-aos-duration="1800">
                 <div class="lead_orbit_content">
-                    <span class="lead_orbit_label">Growth Strategy Call</span>
+                    <span class="lead_orbit_label"><?php echo esc_html( $di_infotech_lead_orbit_content['label'] ); ?></span>
                     <div class="heading">
-                        <h2>Lead Orbit Model</h2>
+                        <h2><?php echo esc_html( $di_infotech_lead_orbit_content['heading'] ); ?></h2>
                     </div>
                     <div class="sub_pera">
-                        <p>A founder-led Growth Strategy Call to identify what is holding your business back before you
-                            spend more on the wrong marketing solution.</p>
+                        <p><?php echo esc_html( $di_infotech_lead_orbit_content['description'] ); ?></p>
                     </div>
                     <div class="lead_orbit_highlights">
-                        <span><i class="fa-solid fa-check"></i> Lead-to-sale clarity</span>
-                        <span><i class="fa-solid fa-check"></i> Ad ROI diagnosis</span>
-                        <span><i class="fa-solid fa-check"></i> Clear next steps</span>
+                        <?php foreach ( array( 'highlight_1', 'highlight_2', 'highlight_3' ) as $highlight ) : ?>
+                            <?php if ( ! empty( $di_infotech_lead_orbit_content[ $highlight ] ) ) : ?>
+                                <span><i class="fa-solid fa-check"></i> <?php echo esc_html( $di_infotech_lead_orbit_content[ $highlight ] ); ?></span>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
                     </div>
                     <div class="main_btn">
-                        <a class="bg_yellow" href="<?php echo esc_url(home_url('/lead-orbit/')); ?>">Explore Lead Orbit Model
+                        <a class="bg_yellow" href="<?php echo esc_url( $di_infotech_lead_orbit_content['button_url'] ); ?>"><?php echo esc_html( $di_infotech_lead_orbit_content['button_text'] ); ?>
                             <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
-                    <p class="lead_orbit_note">Refundable &#8377;199 consultation fee. Details available on the
-                        dedicated page.</p>
+                    <p class="lead_orbit_note"><?php echo esc_html( $di_infotech_lead_orbit_content['note'] ); ?></p>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-left" data-aos-delay=".5s" data-aos-duration="1800">
                 <div class="lead_orbit_card">
                     <div class="lead_orbit_card_head">
-                        <span>Growth Call Framework</span>
-                        <h3>What we clarify with you</h3>
+                        <span><?php echo esc_html( $di_infotech_lead_orbit_content['card_label'] ); ?></span>
+                        <h3><?php echo esc_html( $di_infotech_lead_orbit_content['card_heading'] ); ?></h3>
                     </div>
                     <ul>
-                        <li>
-                            <span>01</span>
-                            <p>Understand your business model, funnel, goals and current marketing activity.</p>
-                        </li>
-                        <li>
-                            <span>02</span>
-                            <p>Identify where leads, traffic, ads or website experience are losing value.</p>
-                        </li>
-                        <li>
-                            <span>03</span>
-                            <p>Map the highest-impact growth opportunities across your digital ecosystem.</p>
-                        </li>
-                        <li>
-                            <span>04</span>
-                            <p>Recommend a focused direction so your next move is practical and measurable.</p>
-                        </li>
+                        <?php foreach ( range( 1, 4 ) as $point_number ) : ?>
+                            <?php $framework_point = $di_infotech_lead_orbit_content[ 'framework_' . $point_number ]; ?>
+                            <?php if ( ! empty( $framework_point['description'] ) ) : ?>
+                                <li>
+                                    <span><?php echo esc_html( $framework_point['number'] ); ?></span>
+                                    <p><?php echo esc_html( $framework_point['description'] ); ?></p>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
             </div>
